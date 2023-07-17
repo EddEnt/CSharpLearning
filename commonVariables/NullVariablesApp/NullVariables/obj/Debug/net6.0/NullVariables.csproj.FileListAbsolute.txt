@@ -1,0 +1,15 @@
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\NullVariablesApp\NullVariables\bin\Debug\net6.0\NullVariables.exe
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\NullVariablesApp\NullVariables\bin\Debug\net6.0\NullVariables.deps.json
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\NullVariablesApp\NullVariables\bin\Debug\net6.0\NullVariables.runtimeconfig.json
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\NullVariablesApp\NullVariables\bin\Debug\net6.0\NullVariables.dll
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\NullVariablesApp\NullVariables\bin\Debug\net6.0\NullVariables.pdb
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\NullVariablesApp\NullVariables\obj\Debug\net6.0\NullVariables.csproj.AssemblyReference.cache
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\NullVariablesApp\NullVariables\obj\Debug\net6.0\NullVariables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\NullVariablesApp\NullVariables\obj\Debug\net6.0\NullVariables.AssemblyInfoInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\NullVariablesApp\NullVariables\obj\Debug\net6.0\NullVariables.AssemblyInfo.cs
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\NullVariablesApp\NullVariables\obj\Debug\net6.0\NullVariables.csproj.CoreCompileInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\NullVariablesApp\NullVariables\obj\Debug\net6.0\NullVariables.dll
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\NullVariablesApp\NullVariables\obj\Debug\net6.0\refint\NullVariables.dll
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\NullVariablesApp\NullVariables\obj\Debug\net6.0\NullVariables.pdb
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\NullVariablesApp\NullVariables\obj\Debug\net6.0\NullVariables.genruntimeconfig.cache
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\NullVariablesApp\NullVariables\obj\Debug\net6.0\ref\NullVariables.dll
