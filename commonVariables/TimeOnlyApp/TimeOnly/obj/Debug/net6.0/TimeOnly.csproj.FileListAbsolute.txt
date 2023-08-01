@@ -1,0 +1,15 @@
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\TimeOnlyApp\TimeOnly\bin\Debug\net6.0\TimeOnly.exe
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\TimeOnlyApp\TimeOnly\bin\Debug\net6.0\TimeOnly.deps.json
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\TimeOnlyApp\TimeOnly\bin\Debug\net6.0\TimeOnly.runtimeconfig.json
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\TimeOnlyApp\TimeOnly\bin\Debug\net6.0\TimeOnly.dll
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\TimeOnlyApp\TimeOnly\bin\Debug\net6.0\TimeOnly.pdb
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\TimeOnlyApp\TimeOnly\obj\Debug\net6.0\TimeOnly.csproj.AssemblyReference.cache
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\TimeOnlyApp\TimeOnly\obj\Debug\net6.0\TimeOnly.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\TimeOnlyApp\TimeOnly\obj\Debug\net6.0\TimeOnly.AssemblyInfoInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\TimeOnlyApp\TimeOnly\obj\Debug\net6.0\TimeOnly.AssemblyInfo.cs
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\TimeOnlyApp\TimeOnly\obj\Debug\net6.0\TimeOnly.csproj.CoreCompileInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\TimeOnlyApp\TimeOnly\obj\Debug\net6.0\TimeOnly.dll
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\TimeOnlyApp\TimeOnly\obj\Debug\net6.0\refint\TimeOnly.dll
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\TimeOnlyApp\TimeOnly\obj\Debug\net6.0\TimeOnly.pdb
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\TimeOnlyApp\TimeOnly\obj\Debug\net6.0\TimeOnly.genruntimeconfig.cache
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\TimeOnlyApp\TimeOnly\obj\Debug\net6.0\ref\TimeOnly.dll
