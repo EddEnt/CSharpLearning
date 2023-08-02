@@ -1,0 +1,15 @@
+C:\Users\Edward\Desktop\CSharpLearning\homework\typeConversionsHomeworkApp\typeConversionsHomework\bin\Debug\net6.0\typeConversionsHomework.exe
+C:\Users\Edward\Desktop\CSharpLearning\homework\typeConversionsHomeworkApp\typeConversionsHomework\bin\Debug\net6.0\typeConversionsHomework.deps.json
+C:\Users\Edward\Desktop\CSharpLearning\homework\typeConversionsHomeworkApp\typeConversionsHomework\bin\Debug\net6.0\typeConversionsHomework.runtimeconfig.json
+C:\Users\Edward\Desktop\CSharpLearning\homework\typeConversionsHomeworkApp\typeConversionsHomework\bin\Debug\net6.0\typeConversionsHomework.dll
+C:\Users\Edward\Desktop\CSharpLearning\homework\typeConversionsHomeworkApp\typeConversionsHomework\bin\Debug\net6.0\typeConversionsHomework.pdb
+C:\Users\Edward\Desktop\CSharpLearning\homework\typeConversionsHomeworkApp\typeConversionsHomework\obj\Debug\net6.0\typeConversionsHomework.csproj.AssemblyReference.cache
+C:\Users\Edward\Desktop\CSharpLearning\homework\typeConversionsHomeworkApp\typeConversionsHomework\obj\Debug\net6.0\typeConversionsHomework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edward\Desktop\CSharpLearning\homework\typeConversionsHomeworkApp\typeConversionsHomework\obj\Debug\net6.0\typeConversionsHomework.AssemblyInfoInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\homework\typeConversionsHomeworkApp\typeConversionsHomework\obj\Debug\net6.0\typeConversionsHomework.AssemblyInfo.cs
+C:\Users\Edward\Desktop\CSharpLearning\homework\typeConversionsHomeworkApp\typeConversionsHomework\obj\Debug\net6.0\typeConversionsHomework.csproj.CoreCompileInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\homework\typeConversionsHomeworkApp\typeConversionsHomework\obj\Debug\net6.0\typeConversionsHomework.dll
+C:\Users\Edward\Desktop\CSharpLearning\homework\typeConversionsHomeworkApp\typeConversionsHomework\obj\Debug\net6.0\refint\typeConversionsHomework.dll
+C:\Users\Edward\Desktop\CSharpLearning\homework\typeConversionsHomeworkApp\typeConversionsHomework\obj\Debug\net6.0\typeConversionsHomework.pdb
+C:\Users\Edward\Desktop\CSharpLearning\homework\typeConversionsHomeworkApp\typeConversionsHomework\obj\Debug\net6.0\typeConversionsHomework.genruntimeconfig.cache
+C:\Users\Edward\Desktop\CSharpLearning\homework\typeConversionsHomeworkApp\typeConversionsHomework\obj\Debug\net6.0\ref\typeConversionsHomework.dll
