@@ -1,0 +1,15 @@
+C:\Users\Edward\Desktop\CSharpLearning\conditionals\IfStatmentsApp\IfStatments\bin\Debug\net6.0\IfStatments.exe
+C:\Users\Edward\Desktop\CSharpLearning\conditionals\IfStatmentsApp\IfStatments\bin\Debug\net6.0\IfStatments.deps.json
+C:\Users\Edward\Desktop\CSharpLearning\conditionals\IfStatmentsApp\IfStatments\bin\Debug\net6.0\IfStatments.runtimeconfig.json
+C:\Users\Edward\Desktop\CSharpLearning\conditionals\IfStatmentsApp\IfStatments\bin\Debug\net6.0\IfStatments.dll
+C:\Users\Edward\Desktop\CSharpLearning\conditionals\IfStatmentsApp\IfStatments\bin\Debug\net6.0\IfStatments.pdb
+C:\Users\Edward\Desktop\CSharpLearning\conditionals\IfStatmentsApp\IfStatments\obj\Debug\net6.0\IfStatments.csproj.AssemblyReference.cache
+C:\Users\Edward\Desktop\CSharpLearning\conditionals\IfStatmentsApp\IfStatments\obj\Debug\net6.0\IfStatments.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edward\Desktop\CSharpLearning\conditionals\IfStatmentsApp\IfStatments\obj\Debug\net6.0\IfStatments.AssemblyInfoInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\conditionals\IfStatmentsApp\IfStatments\obj\Debug\net6.0\IfStatments.AssemblyInfo.cs
+C:\Users\Edward\Desktop\CSharpLearning\conditionals\IfStatmentsApp\IfStatments\obj\Debug\net6.0\IfStatments.csproj.CoreCompileInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\conditionals\IfStatmentsApp\IfStatments\obj\Debug\net6.0\IfStatments.dll
+C:\Users\Edward\Desktop\CSharpLearning\conditionals\IfStatmentsApp\IfStatments\obj\Debug\net6.0\refint\IfStatments.dll
+C:\Users\Edward\Desktop\CSharpLearning\conditionals\IfStatmentsApp\IfStatments\obj\Debug\net6.0\IfStatments.pdb
+C:\Users\Edward\Desktop\CSharpLearning\conditionals\IfStatmentsApp\IfStatments\obj\Debug\net6.0\IfStatments.genruntimeconfig.cache
+C:\Users\Edward\Desktop\CSharpLearning\conditionals\IfStatmentsApp\IfStatments\obj\Debug\net6.0\ref\IfStatments.dll
