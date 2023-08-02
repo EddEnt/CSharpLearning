@@ -1,0 +1,15 @@
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\VariablesHomework\VariablesWork\bin\Debug\net6.0\VariablesHomework.exe
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\VariablesHomework\VariablesWork\bin\Debug\net6.0\VariablesHomework.deps.json
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\VariablesHomework\VariablesWork\bin\Debug\net6.0\VariablesHomework.runtimeconfig.json
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\VariablesHomework\VariablesWork\bin\Debug\net6.0\VariablesHomework.dll
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\VariablesHomework\VariablesWork\bin\Debug\net6.0\VariablesHomework.pdb
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\VariablesHomework\VariablesWork\obj\Debug\net6.0\VariablesHomework.csproj.AssemblyReference.cache
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\VariablesHomework\VariablesWork\obj\Debug\net6.0\VariablesHomework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\VariablesHomework\VariablesWork\obj\Debug\net6.0\VariablesHomework.AssemblyInfoInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\VariablesHomework\VariablesWork\obj\Debug\net6.0\VariablesHomework.AssemblyInfo.cs
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\VariablesHomework\VariablesWork\obj\Debug\net6.0\VariablesHomework.csproj.CoreCompileInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\VariablesHomework\VariablesWork\obj\Debug\net6.0\VariablesHomework.dll
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\VariablesHomework\VariablesWork\obj\Debug\net6.0\refint\VariablesHomework.dll
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\VariablesHomework\VariablesWork\obj\Debug\net6.0\VariablesHomework.pdb
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\VariablesHomework\VariablesWork\obj\Debug\net6.0\VariablesHomework.genruntimeconfig.cache
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\VariablesHomework\VariablesWork\obj\Debug\net6.0\ref\VariablesHomework.dll

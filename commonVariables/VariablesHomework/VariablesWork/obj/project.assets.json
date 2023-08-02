@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Edward\\Desktop\\CSharpLearning\\commonVariables\\VariablesWorkApp\\VariablesWork\\VariablesHomework.csproj",
+      "projectUniqueName": "C:\\Users\\Edward\\Desktop\\CSharpLearning\\commonVariables\\VariablesHomework\\VariablesWork\\VariablesHomework.csproj",
       "projectName": "VariablesHomework",
-      "projectPath": "C:\\Users\\Edward\\Desktop\\CSharpLearning\\commonVariables\\VariablesWorkApp\\VariablesWork\\VariablesHomework.csproj",
+      "projectPath": "C:\\Users\\Edward\\Desktop\\CSharpLearning\\commonVariables\\VariablesHomework\\VariablesWork\\VariablesHomework.csproj",
       "packagesPath": "C:\\Users\\Edward\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Edward\\Desktop\\CSharpLearning\\commonVariables\\VariablesWorkApp\\VariablesWork\\obj\\",
+      "outputPath": "C:\\Users\\Edward\\Desktop\\CSharpLearning\\commonVariables\\VariablesHomework\\VariablesWork\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
