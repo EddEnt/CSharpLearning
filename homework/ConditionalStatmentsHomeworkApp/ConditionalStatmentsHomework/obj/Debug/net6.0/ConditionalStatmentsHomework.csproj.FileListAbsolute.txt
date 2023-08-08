@@ -1,0 +1,15 @@
+C:\Users\Edward\Desktop\CSharpLearning\homework\ConditionalStatmentsHomeworkApp\ConditionalStatmentsHomework\bin\Debug\net6.0\ConditionalStatmentsHomework.exe
+C:\Users\Edward\Desktop\CSharpLearning\homework\ConditionalStatmentsHomeworkApp\ConditionalStatmentsHomework\bin\Debug\net6.0\ConditionalStatmentsHomework.deps.json
+C:\Users\Edward\Desktop\CSharpLearning\homework\ConditionalStatmentsHomeworkApp\ConditionalStatmentsHomework\bin\Debug\net6.0\ConditionalStatmentsHomework.runtimeconfig.json
+C:\Users\Edward\Desktop\CSharpLearning\homework\ConditionalStatmentsHomeworkApp\ConditionalStatmentsHomework\bin\Debug\net6.0\ConditionalStatmentsHomework.dll
+C:\Users\Edward\Desktop\CSharpLearning\homework\ConditionalStatmentsHomeworkApp\ConditionalStatmentsHomework\bin\Debug\net6.0\ConditionalStatmentsHomework.pdb
+C:\Users\Edward\Desktop\CSharpLearning\homework\ConditionalStatmentsHomeworkApp\ConditionalStatmentsHomework\obj\Debug\net6.0\ConditionalStatmentsHomework.csproj.AssemblyReference.cache
+C:\Users\Edward\Desktop\CSharpLearning\homework\ConditionalStatmentsHomeworkApp\ConditionalStatmentsHomework\obj\Debug\net6.0\ConditionalStatmentsHomework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edward\Desktop\CSharpLearning\homework\ConditionalStatmentsHomeworkApp\ConditionalStatmentsHomework\obj\Debug\net6.0\ConditionalStatmentsHomework.AssemblyInfoInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\homework\ConditionalStatmentsHomeworkApp\ConditionalStatmentsHomework\obj\Debug\net6.0\ConditionalStatmentsHomework.AssemblyInfo.cs
+C:\Users\Edward\Desktop\CSharpLearning\homework\ConditionalStatmentsHomeworkApp\ConditionalStatmentsHomework\obj\Debug\net6.0\ConditionalStatmentsHomework.csproj.CoreCompileInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\homework\ConditionalStatmentsHomeworkApp\ConditionalStatmentsHomework\obj\Debug\net6.0\ConditionalStatmentsHomework.dll
+C:\Users\Edward\Desktop\CSharpLearning\homework\ConditionalStatmentsHomeworkApp\ConditionalStatmentsHomework\obj\Debug\net6.0\refint\ConditionalStatmentsHomework.dll
+C:\Users\Edward\Desktop\CSharpLearning\homework\ConditionalStatmentsHomeworkApp\ConditionalStatmentsHomework\obj\Debug\net6.0\ConditionalStatmentsHomework.pdb
+C:\Users\Edward\Desktop\CSharpLearning\homework\ConditionalStatmentsHomeworkApp\ConditionalStatmentsHomework\obj\Debug\net6.0\ConditionalStatmentsHomework.genruntimeconfig.cache
+C:\Users\Edward\Desktop\CSharpLearning\homework\ConditionalStatmentsHomeworkApp\ConditionalStatmentsHomework\obj\Debug\net6.0\ref\ConditionalStatmentsHomework.dll
