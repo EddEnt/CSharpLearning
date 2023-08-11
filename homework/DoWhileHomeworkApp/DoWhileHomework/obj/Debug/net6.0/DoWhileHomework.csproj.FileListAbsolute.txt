@@ -1,0 +1,15 @@
+C:\Users\Edward\Desktop\CSharpLearning\homework\DoWhileHomeworkApp\DoWhileHomework\bin\Debug\net6.0\DoWhileHomework.exe
+C:\Users\Edward\Desktop\CSharpLearning\homework\DoWhileHomeworkApp\DoWhileHomework\bin\Debug\net6.0\DoWhileHomework.deps.json
+C:\Users\Edward\Desktop\CSharpLearning\homework\DoWhileHomeworkApp\DoWhileHomework\bin\Debug\net6.0\DoWhileHomework.runtimeconfig.json
+C:\Users\Edward\Desktop\CSharpLearning\homework\DoWhileHomeworkApp\DoWhileHomework\bin\Debug\net6.0\DoWhileHomework.dll
+C:\Users\Edward\Desktop\CSharpLearning\homework\DoWhileHomeworkApp\DoWhileHomework\bin\Debug\net6.0\DoWhileHomework.pdb
+C:\Users\Edward\Desktop\CSharpLearning\homework\DoWhileHomeworkApp\DoWhileHomework\obj\Debug\net6.0\DoWhileHomework.csproj.AssemblyReference.cache
+C:\Users\Edward\Desktop\CSharpLearning\homework\DoWhileHomeworkApp\DoWhileHomework\obj\Debug\net6.0\DoWhileHomework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edward\Desktop\CSharpLearning\homework\DoWhileHomeworkApp\DoWhileHomework\obj\Debug\net6.0\DoWhileHomework.AssemblyInfoInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\homework\DoWhileHomeworkApp\DoWhileHomework\obj\Debug\net6.0\DoWhileHomework.AssemblyInfo.cs
+C:\Users\Edward\Desktop\CSharpLearning\homework\DoWhileHomeworkApp\DoWhileHomework\obj\Debug\net6.0\DoWhileHomework.csproj.CoreCompileInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\homework\DoWhileHomeworkApp\DoWhileHomework\obj\Debug\net6.0\DoWhileHomework.dll
+C:\Users\Edward\Desktop\CSharpLearning\homework\DoWhileHomeworkApp\DoWhileHomework\obj\Debug\net6.0\refint\DoWhileHomework.dll
+C:\Users\Edward\Desktop\CSharpLearning\homework\DoWhileHomeworkApp\DoWhileHomework\obj\Debug\net6.0\DoWhileHomework.pdb
+C:\Users\Edward\Desktop\CSharpLearning\homework\DoWhileHomeworkApp\DoWhileHomework\obj\Debug\net6.0\DoWhileHomework.genruntimeconfig.cache
+C:\Users\Edward\Desktop\CSharpLearning\homework\DoWhileHomeworkApp\DoWhileHomework\obj\Debug\net6.0\ref\DoWhileHomework.dll
