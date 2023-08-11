@@ -1,0 +1,15 @@
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\DoLoopApp\DoLoop\bin\Debug\net6.0\DoLoop.exe
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\DoLoopApp\DoLoop\bin\Debug\net6.0\DoLoop.deps.json
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\DoLoopApp\DoLoop\bin\Debug\net6.0\DoLoop.runtimeconfig.json
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\DoLoopApp\DoLoop\bin\Debug\net6.0\DoLoop.dll
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\DoLoopApp\DoLoop\bin\Debug\net6.0\DoLoop.pdb
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\DoLoopApp\DoLoop\obj\Debug\net6.0\DoLoop.csproj.AssemblyReference.cache
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\DoLoopApp\DoLoop\obj\Debug\net6.0\DoLoop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\DoLoopApp\DoLoop\obj\Debug\net6.0\DoLoop.AssemblyInfoInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\DoLoopApp\DoLoop\obj\Debug\net6.0\DoLoop.AssemblyInfo.cs
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\DoLoopApp\DoLoop\obj\Debug\net6.0\DoLoop.csproj.CoreCompileInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\DoLoopApp\DoLoop\obj\Debug\net6.0\DoLoop.dll
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\DoLoopApp\DoLoop\obj\Debug\net6.0\refint\DoLoop.dll
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\DoLoopApp\DoLoop\obj\Debug\net6.0\DoLoop.pdb
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\DoLoopApp\DoLoop\obj\Debug\net6.0\DoLoop.genruntimeconfig.cache
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\DoLoopApp\DoLoop\obj\Debug\net6.0\ref\DoLoop.dll
