@@ -1,0 +1,15 @@
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\ArrayExtrasApp\ArrayExtras\bin\Debug\net6.0\ArrayExtras.exe
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\ArrayExtrasApp\ArrayExtras\bin\Debug\net6.0\ArrayExtras.deps.json
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\ArrayExtrasApp\ArrayExtras\bin\Debug\net6.0\ArrayExtras.runtimeconfig.json
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\ArrayExtrasApp\ArrayExtras\bin\Debug\net6.0\ArrayExtras.dll
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\ArrayExtrasApp\ArrayExtras\bin\Debug\net6.0\ArrayExtras.pdb
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\ArrayExtrasApp\ArrayExtras\obj\Debug\net6.0\ArrayExtras.csproj.AssemblyReference.cache
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\ArrayExtrasApp\ArrayExtras\obj\Debug\net6.0\ArrayExtras.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\ArrayExtrasApp\ArrayExtras\obj\Debug\net6.0\ArrayExtras.AssemblyInfoInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\ArrayExtrasApp\ArrayExtras\obj\Debug\net6.0\ArrayExtras.AssemblyInfo.cs
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\ArrayExtrasApp\ArrayExtras\obj\Debug\net6.0\ArrayExtras.csproj.CoreCompileInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\ArrayExtrasApp\ArrayExtras\obj\Debug\net6.0\ArrayExtras.dll
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\ArrayExtrasApp\ArrayExtras\obj\Debug\net6.0\refint\ArrayExtras.dll
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\ArrayExtrasApp\ArrayExtras\obj\Debug\net6.0\ArrayExtras.pdb
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\ArrayExtrasApp\ArrayExtras\obj\Debug\net6.0\ArrayExtras.genruntimeconfig.cache
+C:\Users\Edward\Desktop\CSharpLearning\loops&Sets\ArrayExtrasApp\ArrayExtras\obj\Debug\net6.0\ref\ArrayExtras.dll
