@@ -1,0 +1,15 @@
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForeachHomeworkApp\ForeachHomework\bin\Debug\net6.0\ForeachHomework.exe
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForeachHomeworkApp\ForeachHomework\bin\Debug\net6.0\ForeachHomework.deps.json
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForeachHomeworkApp\ForeachHomework\bin\Debug\net6.0\ForeachHomework.runtimeconfig.json
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForeachHomeworkApp\ForeachHomework\bin\Debug\net6.0\ForeachHomework.dll
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForeachHomeworkApp\ForeachHomework\bin\Debug\net6.0\ForeachHomework.pdb
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForeachHomeworkApp\ForeachHomework\obj\Debug\net6.0\ForeachHomework.csproj.AssemblyReference.cache
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForeachHomeworkApp\ForeachHomework\obj\Debug\net6.0\ForeachHomework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForeachHomeworkApp\ForeachHomework\obj\Debug\net6.0\ForeachHomework.AssemblyInfoInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForeachHomeworkApp\ForeachHomework\obj\Debug\net6.0\ForeachHomework.AssemblyInfo.cs
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForeachHomeworkApp\ForeachHomework\obj\Debug\net6.0\ForeachHomework.csproj.CoreCompileInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForeachHomeworkApp\ForeachHomework\obj\Debug\net6.0\ForeachHomework.dll
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForeachHomeworkApp\ForeachHomework\obj\Debug\net6.0\refint\ForeachHomework.dll
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForeachHomeworkApp\ForeachHomework\obj\Debug\net6.0\ForeachHomework.pdb
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForeachHomeworkApp\ForeachHomework\obj\Debug\net6.0\ForeachHomework.genruntimeconfig.cache
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForeachHomeworkApp\ForeachHomework\obj\Debug\net6.0\ref\ForeachHomework.dll
