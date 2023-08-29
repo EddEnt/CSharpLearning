@@ -1,0 +1,15 @@
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForEachLoopsApp\ForEachLoops\bin\Debug\net6.0\ForEachLoops.exe
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForEachLoopsApp\ForEachLoops\bin\Debug\net6.0\ForEachLoops.deps.json
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForEachLoopsApp\ForEachLoops\bin\Debug\net6.0\ForEachLoops.runtimeconfig.json
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForEachLoopsApp\ForEachLoops\bin\Debug\net6.0\ForEachLoops.dll
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForEachLoopsApp\ForEachLoops\bin\Debug\net6.0\ForEachLoops.pdb
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForEachLoopsApp\ForEachLoops\obj\Debug\net6.0\ForEachLoops.csproj.AssemblyReference.cache
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForEachLoopsApp\ForEachLoops\obj\Debug\net6.0\ForEachLoops.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForEachLoopsApp\ForEachLoops\obj\Debug\net6.0\ForEachLoops.AssemblyInfoInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForEachLoopsApp\ForEachLoops\obj\Debug\net6.0\ForEachLoops.AssemblyInfo.cs
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForEachLoopsApp\ForEachLoops\obj\Debug\net6.0\ForEachLoops.csproj.CoreCompileInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForEachLoopsApp\ForEachLoops\obj\Debug\net6.0\ForEachLoops.dll
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForEachLoopsApp\ForEachLoops\obj\Debug\net6.0\refint\ForEachLoops.dll
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForEachLoopsApp\ForEachLoops\obj\Debug\net6.0\ForEachLoops.pdb
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForEachLoopsApp\ForEachLoops\obj\Debug\net6.0\ForEachLoops.genruntimeconfig.cache
+C:\Users\Edward\Desktop\CSharpLearning\homework\ForEachLoopsApp\ForEachLoops\obj\Debug\net6.0\ref\ForEachLoops.dll
