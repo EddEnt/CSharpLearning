@@ -5,7 +5,7 @@ using Methods; //Correct way
 
 //DRY - Don't Repeat Yourself
 
-//Not about completly eliminating repetition, but eliminating repeating
+//Not about completly eliminating repetition, but eliminating repeating code
 //Better to have an issue in one area of your code, which will be fixed once, rather than
 //code that performs the same task, but split up into multiple classes or methods. That will require 
 //multiple fixes to it, which may be missed during debugging.
