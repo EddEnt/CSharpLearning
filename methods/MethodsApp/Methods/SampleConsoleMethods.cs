@@ -33,14 +33,14 @@ namespace Methods
 
     public static class SampleConsoleMethods //Always PascalCase when naming methods and classes (Captial letters at the start and for new words)
     {
-        public static void SayHello()
+        public static void SayHello(string firstName)
         {
-            Console.WriteLine("Hello from SampleConsoleMethods.cs");
+            Console.WriteLine($"Hello {firstName}, from SampleConsoleMethods.cs");
         }
 
-        public static void SayGoodbye() 
+        public static void SayGoodbye(string firstName) 
         {
-            Console.WriteLine("Goodbye from SampleConsoleMethods.cs");
+            Console.WriteLine($"Goodbye {firstName}, from SampleConsoleMethods.cs");
         }
     }
 }

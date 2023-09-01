@@ -33,6 +33,20 @@ using Methods; //Correct way
 //                                             loosely coupled together, allowing for greater maintainability. When tightly coupled, becomes
 //                                             much harder to fix or refactor.
 
-SampleConsoleMethods.SayHello();
-SampleConsoleMethods.SayGoodbye();
+string inputUserFirstName;
+
+Console.Write("What is your name?: ");
+inputUserFirstName = Console.ReadLine();
+
+SampleConsoleMethods.SayHello(inputUserFirstName);
+
+MathShortcuts.Add(5, 3);
+
+double[] vals = new double[]
+{
+    2, 5, 6, 21, 52, 98
+};
+MathShortcuts.AddAll(vals);
+
+SampleConsoleMethods.SayGoodbye(inputUserFirstName);
 
