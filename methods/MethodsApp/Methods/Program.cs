@@ -35,12 +35,14 @@ using Methods; //Correct way
 
 string inputUserFirstName;
 
-Console.Write("What is your name?: ");
-inputUserFirstName = Console.ReadLine();
+inputUserFirstName = SampleConsoleMethods.GetUsersName();
 
 SampleConsoleMethods.SayHello(inputUserFirstName);
 
-MathShortcuts.Add(5, 3);
+//Old style with our void method MathShortcuts.Add(5, 3);
+double result = MathShortcuts.Add(5, 3);
+Console.WriteLine($"The result is { result }");
+//May also be Console.WriteLine($"The result is { MathShortcuts.Add(5, 3) }");
 
 double[] vals = new double[]
 {
@@ -49,4 +51,6 @@ double[] vals = new double[]
 MathShortcuts.AddAll(vals);
 
 SampleConsoleMethods.SayGoodbye(inputUserFirstName);
+
+//string lastName = Console.ReadLine(); Directly capturing the value
 
