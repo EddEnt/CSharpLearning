@@ -54,3 +54,20 @@ SampleConsoleMethods.SayGoodbye(inputUserFirstName);
 
 //string lastName = Console.ReadLine(); Directly capturing the value
 
+//(string, string) fullName =  SampleConsoleMethods.GetFullName(); This is where var can be useful. will be a shortcut
+
+//var fullName = SampleConsoleMethods.GetFullName(); //Instead of writing out every type that will be used, var will account for each type in the method
+
+//(string firstName, string lastName) fullName = SampleConsoleMethods.GetFullName();
+
+(string firstName, string lastName) = SampleConsoleMethods.GetFullName(); //Can also get rid of fullName
+
+//var (firstName, lastName) = SampleConsoleMethods.GetFullName(); //Can make use of var here as well
+
+//Discard character "_" , tell the compiler that we don't care about that particular variable. Method sill used, but not displayed
+//(string firstName, _) = SampleConsoleMethods.GetFullName();
+
+//Console.Write($"First Name: {fullName.firstName}");
+Console.Write($"First Name: {firstName}");
+Console.Write($"Last Name: {lastName}");
+

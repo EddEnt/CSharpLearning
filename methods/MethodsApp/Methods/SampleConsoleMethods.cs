@@ -42,6 +42,17 @@ namespace Methods
             return userFirstName;
         }
 
+        //Tuple
+        public static (string firstName, string lastName) GetFullName()
+        {
+            Console.Write("What is your first name?: ");
+            string firstName = Console.ReadLine();
+            Console.WriteLine("What is your last name?: ");
+            string lastName = Console.ReadLine();
+
+            return (firstName, lastName);
+        }
+
         public static void SayHello(string firstName)
         {
             Console.WriteLine($"Hello {firstName}, from SampleConsoleMethods.cs");
