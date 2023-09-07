@@ -1,0 +1,1 @@
+C:\Users\Edward\Desktop\CSharpLearning\debugging\MyFirstMAUIApp\MyFirstMAUI\MyFirstMAUI.csproj;x64

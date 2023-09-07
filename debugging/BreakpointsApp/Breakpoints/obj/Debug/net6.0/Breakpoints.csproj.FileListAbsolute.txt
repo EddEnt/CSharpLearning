@@ -1,0 +1,15 @@
+C:\Users\Edward\Desktop\CSharpLearning\debugging\BreakpointsApp\Breakpoints\bin\Debug\net6.0\Breakpoints.exe
+C:\Users\Edward\Desktop\CSharpLearning\debugging\BreakpointsApp\Breakpoints\bin\Debug\net6.0\Breakpoints.deps.json
+C:\Users\Edward\Desktop\CSharpLearning\debugging\BreakpointsApp\Breakpoints\bin\Debug\net6.0\Breakpoints.runtimeconfig.json
+C:\Users\Edward\Desktop\CSharpLearning\debugging\BreakpointsApp\Breakpoints\bin\Debug\net6.0\Breakpoints.dll
+C:\Users\Edward\Desktop\CSharpLearning\debugging\BreakpointsApp\Breakpoints\bin\Debug\net6.0\Breakpoints.pdb
+C:\Users\Edward\Desktop\CSharpLearning\debugging\BreakpointsApp\Breakpoints\obj\Debug\net6.0\Breakpoints.csproj.AssemblyReference.cache
+C:\Users\Edward\Desktop\CSharpLearning\debugging\BreakpointsApp\Breakpoints\obj\Debug\net6.0\Breakpoints.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edward\Desktop\CSharpLearning\debugging\BreakpointsApp\Breakpoints\obj\Debug\net6.0\Breakpoints.AssemblyInfoInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\debugging\BreakpointsApp\Breakpoints\obj\Debug\net6.0\Breakpoints.AssemblyInfo.cs
+C:\Users\Edward\Desktop\CSharpLearning\debugging\BreakpointsApp\Breakpoints\obj\Debug\net6.0\Breakpoints.csproj.CoreCompileInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\debugging\BreakpointsApp\Breakpoints\obj\Debug\net6.0\Breakpoints.dll
+C:\Users\Edward\Desktop\CSharpLearning\debugging\BreakpointsApp\Breakpoints\obj\Debug\net6.0\refint\Breakpoints.dll
+C:\Users\Edward\Desktop\CSharpLearning\debugging\BreakpointsApp\Breakpoints\obj\Debug\net6.0\Breakpoints.pdb
+C:\Users\Edward\Desktop\CSharpLearning\debugging\BreakpointsApp\Breakpoints\obj\Debug\net6.0\Breakpoints.genruntimeconfig.cache
+C:\Users\Edward\Desktop\CSharpLearning\debugging\BreakpointsApp\Breakpoints\obj\Debug\net6.0\ref\Breakpoints.dll
