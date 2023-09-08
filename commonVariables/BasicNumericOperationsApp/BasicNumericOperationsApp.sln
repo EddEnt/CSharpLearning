@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicNumericOperations", "BasicNumericOperations\BasicNumericOperations.csproj", "{D6008A11-BFAA-4D3C-880A-83B03DA9EF66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6008A11-BFAA-4D3C-880A-83B03DA9EF66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6008A11-BFAA-4D3C-880A-83B03DA9EF66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6008A11-BFAA-4D3C-880A-83B03DA9EF66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6008A11-BFAA-4D3C-880A-83B03DA9EF66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF6D7D55-D521-48C1-9E42-C8EA3B239B3F}
+	EndGlobalSection
+EndGlobal

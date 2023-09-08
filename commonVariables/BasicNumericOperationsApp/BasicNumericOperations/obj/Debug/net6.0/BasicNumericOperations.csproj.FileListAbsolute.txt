@@ -1,0 +1,15 @@
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\BasicNumericOperationsApp\BasicNumericOperations\bin\Debug\net6.0\BasicNumericOperations.exe
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\BasicNumericOperationsApp\BasicNumericOperations\bin\Debug\net6.0\BasicNumericOperations.deps.json
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\BasicNumericOperationsApp\BasicNumericOperations\bin\Debug\net6.0\BasicNumericOperations.runtimeconfig.json
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\BasicNumericOperationsApp\BasicNumericOperations\bin\Debug\net6.0\BasicNumericOperations.dll
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\BasicNumericOperationsApp\BasicNumericOperations\bin\Debug\net6.0\BasicNumericOperations.pdb
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\BasicNumericOperationsApp\BasicNumericOperations\obj\Debug\net6.0\BasicNumericOperations.csproj.AssemblyReference.cache
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\BasicNumericOperationsApp\BasicNumericOperations\obj\Debug\net6.0\BasicNumericOperations.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\BasicNumericOperationsApp\BasicNumericOperations\obj\Debug\net6.0\BasicNumericOperations.AssemblyInfoInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\BasicNumericOperationsApp\BasicNumericOperations\obj\Debug\net6.0\BasicNumericOperations.AssemblyInfo.cs
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\BasicNumericOperationsApp\BasicNumericOperations\obj\Debug\net6.0\BasicNumericOperations.csproj.CoreCompileInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\BasicNumericOperationsApp\BasicNumericOperations\obj\Debug\net6.0\BasicNumericOperations.dll
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\BasicNumericOperationsApp\BasicNumericOperations\obj\Debug\net6.0\refint\BasicNumericOperations.dll
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\BasicNumericOperationsApp\BasicNumericOperations\obj\Debug\net6.0\BasicNumericOperations.pdb
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\BasicNumericOperationsApp\BasicNumericOperations\obj\Debug\net6.0\BasicNumericOperations.genruntimeconfig.cache
+C:\Users\Edward\Desktop\CSharpLearning\commonVariables\BasicNumericOperationsApp\BasicNumericOperations\obj\Debug\net6.0\ref\BasicNumericOperations.dll
