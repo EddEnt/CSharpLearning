@@ -35,4 +35,42 @@ Console.WriteLine(@"c:\invoices");
 Console.WriteLine("\u3053\u3093\u306B\u3061\u306F World!");
 //こんにちは World! Output on .NET Editor https://learn.microsoft.com/en-us/training/modules/csharp-basic-formatting/2-exercise-character-escape-sequences
 
+//Concatenating
+string firstName = "Edward";
+string greeting = "Hello";
+string message = greeting + ", " + firstName + "!";
+Console.WriteLine(message);
+
+//Storing the message into an intermediate variable is not best practice
+//Instead, far better to concatenate in a WriteLine
+Console.WriteLine(greeting + ", " + firstName + "!");
+
+//String interpolation
+Console.WriteLine($"{greeting}, {firstName}!");
+
+int versionNumber = 11;
+string updateText = "Update to Windows";
+string message2 = $"{updateText} {versionNumber}";
+Console.WriteLine(message2);
+
+//Avoiding intermediate variables
+Console.WriteLine($"{updateText} {versionNumber}!");
+
+//String formatting challenge
+string projectName = "ACME";
+string russianMessage = "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0432\u044b\u0432\u043e\u0434";
+
+Console.WriteLine(@"View English output:
+    c:\Exercise\" + projectName + "\\data.txt");
+Console.WriteLine(russianMessage + @":
+    c:\Exercise\" + projectName + "\\ru-RU\\data.txt");
+
+/* 
+Output from .NET Editor
+
+View English output:
+    c:\Exercise\ACME\data.txt
+Посмотреть русский вывод:
+    c:\Exercise\ACME\ru-RU\data.txt
+ */
 
