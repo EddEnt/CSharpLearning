@@ -1,0 +1,1 @@
+C:\Users\Edward\Desktop\CSharpLearning\CalculatorApp\Calculator\Calculator.csproj;x64
