@@ -41,7 +41,8 @@ namespace CalculatorConsole
                 Console.WriteLine($"Number 1: {validNumber1} Number 2: {validNumber2}");
                 Console.WriteLine("-----------------------");
 
-                Console.WriteLine("Please select an operation to be performed from the following:");
+                Console.WriteLine("Please select an operation to be performed from the following.");
+                Console.WriteLine("Once you have made a selection, press any key to perform another calculation...");
 
                 Console.WriteLine("\t a - Addition");
                 Console.WriteLine("\t s - Subtraction");
@@ -78,11 +79,10 @@ namespace CalculatorConsole
                         endApplication = true;
                         break;
 
-
                     default:
                         break;
                 }
-
+                Console.ReadKey();
             }
         }
     }
