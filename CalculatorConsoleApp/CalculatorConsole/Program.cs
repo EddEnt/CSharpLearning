@@ -2,10 +2,8 @@
 
 using CalculatorConsole;
 
-bool endApplication = false;
+Console.WriteLine("--- Console Calculator Application ---");
+Console.WriteLine("----------------------------------------");
+Calculator.RunCalculator();
 
-while (!endApplication)
-{
-    Calculator.RunCalculator();
-}
 
