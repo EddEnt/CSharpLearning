@@ -217,7 +217,6 @@ C:\Users\Edward\Desktop\CSharpLearning\CalculatorApp\Calculator\bin\Debug\net7.0
 C:\Users\Edward\Desktop\CSharpLearning\CalculatorApp\Calculator\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\hostfxr.dll
 C:\Users\Edward\Desktop\CSharpLearning\CalculatorApp\Calculator\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\hostpolicy.dll
 C:\Users\Edward\Desktop\CSharpLearning\CalculatorApp\Calculator\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore.dll
-C:\Users\Edward\Desktop\CSharpLearning\CalculatorApp\Calculator\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.523.17405.dll
 C:\Users\Edward\Desktop\CSharpLearning\CalculatorApp\Calculator\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordbi.dll
 C:\Users\Edward\Desktop\CSharpLearning\CalculatorApp\Calculator\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscorrc.dll
 C:\Users\Edward\Desktop\CSharpLearning\CalculatorApp\Calculator\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\msquic.dll
@@ -322,3 +321,4 @@ C:\Users\Edward\Desktop\CSharpLearning\CalculatorApp\Calculator\obj\Debug\net7.0
 C:\Users\Edward\Desktop\CSharpLearning\CalculatorApp\Calculator\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\Edward\Desktop\CSharpLearning\CalculatorApp\Calculator\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Edward\Desktop\CSharpLearning\CalculatorApp\Calculator\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\Edward\Desktop\CSharpLearning\CalculatorApp\Calculator\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\mscordaccore_amd64_amd64_7.0.1123.42427.dll
