@@ -1,0 +1,14 @@
+C:\Users\Edward\Desktop\CSharpLearning\CalculatorConsoleApp\CalculatorConsole\bin\Debug\net6.0\CalculatorConsole.exe
+C:\Users\Edward\Desktop\CSharpLearning\CalculatorConsoleApp\CalculatorConsole\bin\Debug\net6.0\CalculatorConsole.deps.json
+C:\Users\Edward\Desktop\CSharpLearning\CalculatorConsoleApp\CalculatorConsole\bin\Debug\net6.0\CalculatorConsole.runtimeconfig.json
+C:\Users\Edward\Desktop\CSharpLearning\CalculatorConsoleApp\CalculatorConsole\bin\Debug\net6.0\CalculatorConsole.dll
+C:\Users\Edward\Desktop\CSharpLearning\CalculatorConsoleApp\CalculatorConsole\bin\Debug\net6.0\CalculatorConsole.pdb
+C:\Users\Edward\Desktop\CSharpLearning\CalculatorConsoleApp\CalculatorConsole\obj\Debug\net6.0\CalculatorConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edward\Desktop\CSharpLearning\CalculatorConsoleApp\CalculatorConsole\obj\Debug\net6.0\CalculatorConsole.AssemblyInfoInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\CalculatorConsoleApp\CalculatorConsole\obj\Debug\net6.0\CalculatorConsole.AssemblyInfo.cs
+C:\Users\Edward\Desktop\CSharpLearning\CalculatorConsoleApp\CalculatorConsole\obj\Debug\net6.0\CalculatorConsole.csproj.CoreCompileInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\CalculatorConsoleApp\CalculatorConsole\obj\Debug\net6.0\CalculatorConsole.dll
+C:\Users\Edward\Desktop\CSharpLearning\CalculatorConsoleApp\CalculatorConsole\obj\Debug\net6.0\refint\CalculatorConsole.dll
+C:\Users\Edward\Desktop\CSharpLearning\CalculatorConsoleApp\CalculatorConsole\obj\Debug\net6.0\CalculatorConsole.pdb
+C:\Users\Edward\Desktop\CSharpLearning\CalculatorConsoleApp\CalculatorConsole\obj\Debug\net6.0\CalculatorConsole.genruntimeconfig.cache
+C:\Users\Edward\Desktop\CSharpLearning\CalculatorConsoleApp\CalculatorConsole\obj\Debug\net6.0\ref\CalculatorConsole.dll
