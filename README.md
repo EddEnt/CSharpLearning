@@ -1,2 +1,2 @@
 # CSharpLearning
- C# learning repository. For all C# related material, including basic programs, .NET & Blazor, etc. 
+ C# learning repository. For all C# related material, including console applications, .NET & Blazor projects, etc. 
