@@ -12,3 +12,7 @@ C:\Users\Edward\Desktop\CSharpLearning\CalculatorConsoleApp\CalculatorConsole\ob
 C:\Users\Edward\Desktop\CSharpLearning\CalculatorConsoleApp\CalculatorConsole\obj\Debug\net6.0\CalculatorConsole.pdb
 C:\Users\Edward\Desktop\CSharpLearning\CalculatorConsoleApp\CalculatorConsole\obj\Debug\net6.0\CalculatorConsole.genruntimeconfig.cache
 C:\Users\Edward\Desktop\CSharpLearning\CalculatorConsoleApp\CalculatorConsole\obj\Debug\net6.0\ref\CalculatorConsole.dll
+C:\Users\Edward\Desktop\CSharpLearning\CalculatorConsoleApp\CalculatorConsole\obj\Debug\net6.0\CalculatorConsole.csproj.AssemblyReference.cache
+C:\Users\Edward\Desktop\CSharpLearning\CalculatorConsoleApp\CalculatorConsole\bin\Debug\net6.0\CalculatorLibrary.dll
+C:\Users\Edward\Desktop\CSharpLearning\CalculatorConsoleApp\CalculatorConsole\bin\Debug\net6.0\CalculatorLibrary.pdb
+C:\Users\Edward\Desktop\CSharpLearning\CalculatorConsoleApp\CalculatorConsole\obj\Debug\net6.0\CalculatorConsole.csproj.CopyComplete

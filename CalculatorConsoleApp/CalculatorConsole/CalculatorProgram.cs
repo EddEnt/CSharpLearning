@@ -7,7 +7,7 @@ using CalculatorLibrary;
 
 namespace CalculatorConsole
 {
-    public class Calculator
+    public class CalculatorProgram
     {
         public static void RunCalculator()
         {
@@ -57,19 +57,19 @@ namespace CalculatorConsole
                 switch (operationSelection)
                 {
                     case "a":
-                        result = CalculatorOperations.Addition.AddNumbers(validNumber1, validNumber2);                        
+                        result = Calculator.AddNumbers(validNumber1, validNumber2);
                         break;
 
                     case "s":
-                        result = CalculatorOperations.Subtraction.SubtractNumbers(validNumber1, validNumber2);
+                        result = Calculator.SubtractNumbers(validNumber1, validNumber2);
                         break;
 
                     case "m":
-                        result = CalculatorOperations.Multiplication.MultiplyNumbers(validNumber1, validNumber2);
+                        result = Calculator.MultiplyNumbers(validNumber1, validNumber2);
                         break;
 
                     case "d":
-                        result = CalculatorOperations.Division.DivideNumbers(validNumber1, validNumber2);
+                        result = Calculator.DivideNumbers(validNumber1, validNumber2);
                         if (double.IsNaN(result))
                         {
                             Console.WriteLine("Sorry, the provided numbers result in a mathematical error");
