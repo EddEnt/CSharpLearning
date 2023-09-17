@@ -69,7 +69,16 @@ namespace CalculatorConsole
 
                     case "d":
                         result = CalculatorOperations.Division.DivideNumbers(validNumber1, validNumber2);
+                        if (double.IsNaN(result))
+                        {
+                            Console.WriteLine("Sorry, the provided numbers result in a mathematical error");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Valid division!");                        }
+
                         break;
+                        
 
                     case "n":
                         endApplication = true;
