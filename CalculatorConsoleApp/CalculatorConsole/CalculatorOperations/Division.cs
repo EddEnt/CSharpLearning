@@ -15,6 +15,7 @@ namespace CalculatorConsole.CalculatorOperations
             {
                 calculatedResult = number1 / number2;
             }
+            Console.WriteLine($"{number1} / {number2} = {calculatedResult}");
             return calculatedResult;
         }
     }

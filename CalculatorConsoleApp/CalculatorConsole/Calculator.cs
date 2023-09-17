@@ -56,23 +56,19 @@ namespace CalculatorConsole
                 switch (operationSelection)
                 {
                     case "a":
-                        result = CalculatorOperations.Addition.AddNumbers(validNumber1, validNumber2);
-                        Console.WriteLine($"{validNumber1} + {validNumber2} = {result}");
+                        result = CalculatorOperations.Addition.AddNumbers(validNumber1, validNumber2);                        
                         break;
 
                     case "s":
                         result = CalculatorOperations.Subtraction.SubtractNumbers(validNumber1, validNumber2);
-                        Console.WriteLine($"{validNumber1} - {validNumber2} = {result}");
                         break;
 
                     case "m":
                         result = CalculatorOperations.Multiplication.MultiplyNumbers(validNumber1, validNumber2);
-                        Console.WriteLine($"{validNumber1} * {validNumber2} = {result}");
                         break;
 
                     case "d":
                         result = CalculatorOperations.Division.DivideNumbers(validNumber1, validNumber2);
-                        Console.WriteLine($"{validNumber1} / {validNumber2} = {result}");
                         break;
 
                     case "n":

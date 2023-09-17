@@ -11,6 +11,7 @@ namespace CalculatorConsole.CalculatorOperations
         public static double AddNumbers(double number1, double number2 )
         {
             double calculatedResult = number1 + number2;
+            Console.WriteLine($"{number1} + {number2} = {calculatedResult}.");
             return calculatedResult;
         }
     }
