@@ -14,28 +14,31 @@ namespace CalculatorLibrary
             Trace.WriteLine(String.Format("Started at {0}", System.DateTime.Now.ToString()));
         }
 
-        public static double AddNumbers(double number1, double number2)
+        public double AddNumbers(double number1, double number2)
         {
             double calculatedResult = number1 + number2;
             Console.WriteLine($"{number1} + {number2} = {calculatedResult}.");
+            Trace.WriteLine($"{number1} + {number2} = {calculatedResult}");
             return calculatedResult;
         }
 
-        public static double SubtractNumbers(double number1, double number2)
+        public double SubtractNumbers(double number1, double number2)
         {
             double calculatedResult = number1 - number2;
             Console.WriteLine($"{number1} - {number2} = {calculatedResult}");
+            Trace.WriteLine($"{number1} - {number2} = {calculatedResult}");
             return calculatedResult;
         }
 
-        public static double MultiplyNumbers(double number1, double number2)
+        public double MultiplyNumbers(double number1, double number2)
         {
             double calculatedResult = number1 * number2;
             Console.WriteLine($"{number1} * {number2} = {calculatedResult}");
+            Trace.WriteLine($"{number1} * {number2} = {calculatedResult}");
             return calculatedResult;
         }
 
-        public static double DivideNumbers(double number1, double number2)
+        public double DivideNumbers(double number1, double number2)
         {
             double calculatedResult = double.NaN;
             if (number2 != 0)
@@ -43,6 +46,7 @@ namespace CalculatorLibrary
                 calculatedResult = number1 / number2;
             }
             Console.WriteLine($"{number1} / {number2} = {calculatedResult}");
+            Trace.WriteLine($"{number1} / {number2} = {calculatedResult}");
             return calculatedResult;
         }
 

@@ -13,6 +13,8 @@ namespace CalculatorConsole
         {
             bool endApplication = false;
 
+            Calculator calculator = new Calculator();
+
             while (!endApplication) 
             { 
 
@@ -57,19 +59,19 @@ namespace CalculatorConsole
                 switch (operationSelection)
                 {
                     case "a":
-                        result = Calculator.AddNumbers(validNumber1, validNumber2);
+                        result = calculator.AddNumbers(validNumber1, validNumber2);
                         break;
 
                     case "s":
-                        result = Calculator.SubtractNumbers(validNumber1, validNumber2);
+                        result = calculator.SubtractNumbers(validNumber1, validNumber2);
                         break;
 
                     case "m":
-                        result = Calculator.MultiplyNumbers(validNumber1, validNumber2);
+                        result = calculator.MultiplyNumbers(validNumber1, validNumber2);
                         break;
 
                     case "d":
-                        result = Calculator.DivideNumbers(validNumber1, validNumber2);
+                        result = calculator.DivideNumbers(validNumber1, validNumber2);
                         if (double.IsNaN(result))
                         {
                             Console.WriteLine("Sorry, the provided numbers result in a mathematical error");
