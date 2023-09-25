@@ -1,0 +1,14 @@
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\NamespacesApp\Namespaces\bin\Debug\net6.0\Namespaces.exe
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\NamespacesApp\Namespaces\bin\Debug\net6.0\Namespaces.deps.json
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\NamespacesApp\Namespaces\bin\Debug\net6.0\Namespaces.runtimeconfig.json
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\NamespacesApp\Namespaces\bin\Debug\net6.0\Namespaces.dll
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\NamespacesApp\Namespaces\bin\Debug\net6.0\Namespaces.pdb
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\NamespacesApp\Namespaces\obj\Debug\net6.0\Namespaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\NamespacesApp\Namespaces\obj\Debug\net6.0\Namespaces.AssemblyInfoInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\NamespacesApp\Namespaces\obj\Debug\net6.0\Namespaces.AssemblyInfo.cs
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\NamespacesApp\Namespaces\obj\Debug\net6.0\Namespaces.csproj.CoreCompileInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\NamespacesApp\Namespaces\obj\Debug\net6.0\Namespaces.dll
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\NamespacesApp\Namespaces\obj\Debug\net6.0\refint\Namespaces.dll
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\NamespacesApp\Namespaces\obj\Debug\net6.0\Namespaces.pdb
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\NamespacesApp\Namespaces\obj\Debug\net6.0\Namespaces.genruntimeconfig.cache
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\NamespacesApp\Namespaces\obj\Debug\net6.0\ref\Namespaces.dll
