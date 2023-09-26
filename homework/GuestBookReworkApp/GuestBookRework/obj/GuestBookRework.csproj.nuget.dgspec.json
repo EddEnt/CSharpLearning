@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Edward\\Desktop\\CSharpLearning\\GuestBookApp\\GuestBook\\GuestBook.csproj": {}
+    "C:\\Users\\Edward\\Desktop\\CSharpLearning\\homework\\GuestBookReworkApp\\GuestBookRework\\GuestBookRework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Edward\\Desktop\\CSharpLearning\\GuestBookApp\\GuestBook\\GuestBook.csproj": {
+    "C:\\Users\\Edward\\Desktop\\CSharpLearning\\homework\\GuestBookReworkApp\\GuestBookRework\\GuestBookRework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Edward\\Desktop\\CSharpLearning\\GuestBookApp\\GuestBook\\GuestBook.csproj",
-        "projectName": "GuestBook",
-        "projectPath": "C:\\Users\\Edward\\Desktop\\CSharpLearning\\GuestBookApp\\GuestBook\\GuestBook.csproj",
+        "projectUniqueName": "C:\\Users\\Edward\\Desktop\\CSharpLearning\\homework\\GuestBookReworkApp\\GuestBookRework\\GuestBookRework.csproj",
+        "projectName": "GuestBookRework",
+        "projectPath": "C:\\Users\\Edward\\Desktop\\CSharpLearning\\homework\\GuestBookReworkApp\\GuestBookRework\\GuestBookRework.csproj",
         "packagesPath": "C:\\Users\\Edward\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Edward\\Desktop\\CSharpLearning\\GuestBookApp\\GuestBook\\obj\\",
+        "outputPath": "C:\\Users\\Edward\\Desktop\\CSharpLearning\\homework\\GuestBookReworkApp\\GuestBookRework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
