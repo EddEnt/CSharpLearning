@@ -50,7 +50,7 @@ namespace MathGame
                         SubtractionGame.StartSubtractionGame();
                         break;
                     case "m":
-                        //Multiplication
+                        MultiplicationGame.StartMultiplicationGame();
                         break;
                     case "d":
                         //Division
