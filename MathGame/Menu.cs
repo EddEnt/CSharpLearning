@@ -53,7 +53,7 @@ namespace MathGame
                         MultiplicationGame.StartMultiplicationGame();
                         break;
                     case "d":
-                        //Division
+                        DivisionGame.StartDivisionGame();
                         break;
                     case "q":
                         Console.WriteLine("Exiting the game. Goodbye...");
