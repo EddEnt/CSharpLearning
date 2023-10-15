@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace LibraryMathGame.Games
 {
-    public class AdditionGame
+    public class SubtractionGame
     {
 
-        public static void StartAdditionGame()
+        public static void StartSubtractionGame()
         {
             string difficulty;
             int min, max;
             int numberOfQuestions = 0;
 
             Console.WriteLine("-------------------------------");
-            Console.WriteLine("Addition Game");
+            Console.WriteLine("Subtraction Game");
 
             while (true)
             {
@@ -47,14 +47,14 @@ namespace LibraryMathGame.Games
                     int num1 = new Random().Next(min, max + 1);
                     int num2 = new Random().Next(min, max + 1);
 
-                    Console.Write($"What is {num1} + {num2}? ");
-                    if (int.TryParse(Console.ReadLine(), out int inputUserAnswer) && inputUserAnswer == num1 + num2)
+                    Console.Write($"What is {num1} - {num2}? ");
+                    if (int.TryParse(Console.ReadLine(), out int inputUserAnswer) && inputUserAnswer == num1 - num2)
                     {
                         Console.WriteLine("Correct answer!");
                     }
                     else
                     {
-                        Console.WriteLine("Incorrect. The correct answer is " + (num1 + num2) + ".");
+                        Console.WriteLine("Incorrect. The correct answer is " + (num1 - num2) + ".");
                     }
 
                     numberOfQuestions++;
@@ -73,7 +73,7 @@ namespace LibraryMathGame.Games
                             else if (inputContinueQuestionGame == "no")
                             {
                                 Console.WriteLine("Returning to the main menu.");
-                                return; // Exit the addition game
+                                return; // Exit the subtraction game
                             }
                             else
                             {

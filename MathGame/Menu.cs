@@ -47,7 +47,7 @@ namespace MathGame
                         AdditionGame.StartAdditionGame();
                         break; 
                     case "s":
-                        //Subtraction
+                        SubtractionGame.StartSubtractionGame();
                         break;
                     case "m":
                         //Multiplication
