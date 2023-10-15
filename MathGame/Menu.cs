@@ -10,6 +10,7 @@ namespace MathGame
 {
     public class Menu
     {
+
         private static string username = string.Empty;
 
         public static void GameMenu() 
