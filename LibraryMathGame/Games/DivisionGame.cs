@@ -83,12 +83,12 @@ namespace LibraryMathGame.Games
 
                                 if (inputContinueQuestionGame == "yes")
                                 {
-                                    break; // Continue the game
+                                    break; // Continue game
                                 }
                                 else if (inputContinueQuestionGame == "no")
                                 {
                                     Console.WriteLine("Returning to the main menu.");
-                                    return; // Exit the division game
+                                    return; // Exit division game
                                 }
                                 else
                                 {
