@@ -4,101 +4,152 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using System;
+
 namespace LibraryMathGame.Games
 {
     public class DivisionGame
     {
-            public static void StartDivisionGame()
+        public static void StartDivisionGame()
+        {
+            Console.WriteLine("-------------------------------");
+            Console.WriteLine("Division Game");
+
+            while (true)
             {
-                string difficulty;
                 int min, max;
                 int numberOfQuestions = 0;
+                int questionsToPlay = 0;
 
-                Console.WriteLine("-------------------------------");
-                Console.WriteLine("Division Game");
+                string difficulty = GetDifficultyLevel();
+                if (difficulty == null)
+                    return; // User exited to the main menu
 
-                while (true)
+                questionsToPlay = GetNumberOfQuestions();
+                if (questionsToPlay == -1)
+                    return; // User exited to the main menu
+
+                SetDifficultyRange(difficulty, out min, out max);
+
+                while (numberOfQuestions < questionsToPlay)
                 {
-                    Console.Write("Select the difficulty level (Easy, Regular, or Hard): ");
-                    difficulty = Console.ReadLine().Trim().ToLower();
+                    int num1 = new Random().Next(min, max + 1);
+                    int num2 = new Random().Next(min, max + 1);
 
-                    switch (difficulty)
+                    string questionText = num2 == 0
+                        ? $"What is {num1} / 0? (Enter 0 to indicate division by zero): "
+                        : $"What is {num1} / {num2}? ";
+
+                    Console.Write(questionText);
+                    string inputUserAnswer = Console.ReadLine().Trim().ToLower();
+
+                    if (inputUserAnswer == "q")
                     {
-                        case "easy":
-                            min = 1;
-                            max = 10;
-                            break;
-                        case "regular":
-                            min = 1;
-                            max = 100;
-                            break;
-                        case "hard":
-                            min = 1;
-                            max = 1000;
-                            break;
-                        default:
-                            Console.WriteLine("Invalid difficulty level. Please try again.");
-                            continue; // Restart the loop to ask for difficulty again
+                        Console.WriteLine("Exiting the division game.");
+                        return; // Exit division game
                     }
 
-                    do
+                    if (int.TryParse(inputUserAnswer, out int userAnswer))
                     {
-                        int num1 = new Random().Next(min, max + 1);
-                        int num2 = new Random().Next(min, max + 1);
-
-                        if (num2 == 0)
+                        if ((num2 == 0 && userAnswer == 0) || (num2 != 0 && userAnswer == num1 / num2))
                         {
-                            // Handle division by zero
-                            Console.Write($"What is {num1} / 0? (Enter 0 to indicate division by zero): ");
+                            Console.WriteLine("Correct answer!");
                         }
                         else
                         {
-                            Console.Write($"What is {num1} / {num2}? ");
+                            Console.WriteLine($"Incorrect. The correct answer is {(num2 == 0 ? "division by zero" : (num1 / num2).ToString())}.");
                         }
 
-                        if (int.TryParse(Console.ReadLine(), out int inputUserAnswer))
-                        {
-                            if ((num2 == 0 && inputUserAnswer == 0) || (num2 != 0 && inputUserAnswer == num1 / num2))
-                            {
-                                Console.WriteLine("Correct answer!");
-                            }
-                            else
-                            {
-                                Console.WriteLine("Incorrect. The correct answer is " + (num2 == 0 ? "division by zero" : (num1 / num2).ToString()) + ".");
-                            }
-                        }
-                        else
-                        {
-                            Console.WriteLine("Invalid input. Please enter a valid number.");
-                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid input. Please enter a valid number.");
+                    }
 
-                        numberOfQuestions++;
+                    numberOfQuestions++;
 
-                        if (numberOfQuestions % 5 == 0)
-                        {
-                            while (true)
-                            {
-                                Console.Write("Do you want to continue? (yes/no) ");
-                                string inputContinueQuestionGame = Console.ReadLine().Trim().ToLower();
-
-                                if (inputContinueQuestionGame == "yes")
-                                {
-                                    break; // Continue game
-                                }
-                                else if (inputContinueQuestionGame == "no")
-                                {
-                                    Console.WriteLine("Returning to the main menu.");
-                                    return; // Exit division game
-                                }
-                                else
-                                {
-                                    Console.WriteLine("Invalid input. Please enter 'yes' or 'no'.");
-                                }
-                            }
-                        }
-                    } while (true);
+                    if (numberOfQuestions % 5 == 0)
+                    {
+                        if (!AskToContinueGame())
+                            return; // Exit division game
+                    }
                 }
             }
+        }
 
+        private static string GetDifficultyLevel()
+        {
+            string difficulty;
+            while (true)
+            {
+                Console.Write("Select the difficulty level (Easy, Regular, or Hard) or 'q' to return to the main menu: ");
+                difficulty = Console.ReadLine().Trim().ToLower();
+
+                if (difficulty == "q")
+                    return null; // User exited to the main menu
+
+                if (difficulty == "easy" || difficulty == "regular" || difficulty == "hard")
+                    return difficulty;
+                else
+                    Console.WriteLine("Invalid difficulty level. Please try again.");
+            }
+        }
+
+        private static int GetNumberOfQuestions()
+        {
+            int questionsToPlay;
+            while (true)
+            {
+                Console.Write("Enter the number of questions or 'q' to return to the main menu: ");
+                string input = Console.ReadLine().Trim().ToLower();
+
+                if (input == "q")
+                    return -1; // User exited to the main menu
+
+                if (int.TryParse(input, out questionsToPlay) && questionsToPlay >= 1)
+                    return questionsToPlay;
+                else
+                    Console.WriteLine("Invalid input. Please enter a positive number or 'q' to return to the main menu.");
+            }
+        }
+
+        private static void SetDifficultyRange(string difficulty, out int min, out int max)
+        {
+            min = 1;
+            max = 10;
+
+            if (difficulty == "regular")
+            {
+                max = 100;
+            }
+            else if (difficulty == "hard")
+            {
+                max = 1000;
+            }
+        }
+
+        private static bool AskToContinueGame()
+        {
+            while (true)
+            {
+                Console.Write("Do you want to continue? (yes/no) ");
+                string inputContinueQuestionGame = Console.ReadLine().Trim().ToLower();
+
+                if (inputContinueQuestionGame == "yes")
+                {
+                    return true; // Continue game
+                }
+                else if (inputContinueQuestionGame == "no")
+                {
+                    Console.WriteLine("Returning to the main menu.");
+                    return false; // Exit division game
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input. Please enter 'yes' or 'no'.");
+                }
+            }
+        }
     }
 }
+

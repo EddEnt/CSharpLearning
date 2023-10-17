@@ -8,82 +8,134 @@ namespace LibraryMathGame.Games
 {
     public class SubtractionGame
     {
-
         public static void StartSubtractionGame()
         {
-            string difficulty;
-            int min, max;
-            int numberOfQuestions = 0;
-
             Console.WriteLine("-------------------------------");
             Console.WriteLine("Subtraction Game");
 
             while (true)
             {
-                Console.Write("Select the difficulty level (Easy, Regular, or Hard): ");
-                difficulty = Console.ReadLine().Trim().ToLower();
+                int min, max;
+                int numberOfQuestions = 0;
+                int questionsToPlay = 0;
 
-                switch (difficulty)
-                {
-                    case "easy":
-                        min = 1;
-                        max = 10;
-                        break;
-                    case "regular":
-                        min = 1;
-                        max = 100;
-                        break;
-                    case "hard":
-                        min = 1;
-                        max = 1000;
-                        break;
-                    default:
-                        Console.WriteLine("Invalid difficulty level. Please try again.");
-                        continue; // Restart the loop to ask for difficulty again
-                }
+                string difficulty = GetDifficultyLevel();
+                if (difficulty == null)
+                    return; // User exited to the main menu
 
-                do
+                questionsToPlay = GetNumberOfQuestions();
+                if (questionsToPlay == -1)
+                    return; // User exited to the main menu
+
+                SetDifficultyRange(difficulty, out min, out max);
+
+                while (numberOfQuestions < questionsToPlay)
                 {
                     int num1 = new Random().Next(min, max + 1);
                     int num2 = new Random().Next(min, max + 1);
 
                     Console.Write($"What is {num1} - {num2}? ");
-                    if (int.TryParse(Console.ReadLine(), out int inputUserAnswer) && inputUserAnswer == num1 - num2)
+                    string inputUserAnswer = Console.ReadLine().Trim().ToLower();
+
+                    if (inputUserAnswer == "q")
+                    {
+                        Console.WriteLine("Exiting the subtraction game.");
+                        return; // Exit subtraction game
+                    }
+
+                    if (int.TryParse(inputUserAnswer, out int userAnswer) && userAnswer == num1 - num2)
                     {
                         Console.WriteLine("Correct answer!");
                     }
                     else
                     {
-                        Console.WriteLine("Incorrect. The correct answer is " + (num1 - num2) + ".");
+                        Console.WriteLine($"Incorrect. The correct answer is {num1 - num2}.");
                     }
 
                     numberOfQuestions++;
 
                     if (numberOfQuestions % 5 == 0)
                     {
-                        while (true)
-                        {
-                            Console.Write("Do you want to continue? (yes/no) ");
-                            string inputContinueQuestionGame = Console.ReadLine().Trim().ToLower();
-
-                            if (inputContinueQuestionGame == "yes")
-                            {
-                                break; // Continue game
-                            }
-                            else if (inputContinueQuestionGame == "no")
-                            {
-                                Console.WriteLine("Returning to the main menu.");
-                                return; // Exit subtraction game
-                            }
-                            else
-                            {
-                                Console.WriteLine("Invalid input. Please enter 'yes' or 'no'.");
-                            }
-                        }
+                        if (!AskToContinueGame())
+                            return; // Exit subtraction game
                     }
-                } while (true);
+                }
             }
         }
 
+        private static string GetDifficultyLevel()
+        {
+            string difficulty;
+            while (true)
+            {
+                Console.Write("Select the difficulty level (Easy, Regular, or Hard) or 'q' to return to the main menu: ");
+                difficulty = Console.ReadLine().Trim().ToLower();
+
+                if (difficulty == "q")
+                    return null; // User exited to the main menu
+
+                if (difficulty == "easy" || difficulty == "regular" || difficulty == "hard")
+                    return difficulty;
+                else
+                    Console.WriteLine("Invalid difficulty level. Please try again.");
+            }
+        }
+
+        private static int GetNumberOfQuestions()
+        {
+            int questionsToPlay;
+            while (true)
+            {
+                Console.Write("Enter the number of questions or 'q' to return to the main menu: ");
+                string input = Console.ReadLine().Trim().ToLower();
+
+                if (input == "q")
+                    return -1; // User exited to the main menu
+
+                if (int.TryParse(input, out questionsToPlay) && questionsToPlay >= 1)
+                    return questionsToPlay;
+                else
+                    Console.WriteLine("Invalid input. Please enter a positive number or 'q' to return to the main menu.");
+            }
+        }
+
+        private static void SetDifficultyRange(string difficulty, out int min, out int max)
+        {
+            min = 1;
+            max = 10;
+
+            if (difficulty == "regular")
+            {
+                max = 100;
+            }
+            else if (difficulty == "hard")
+            {
+                max = 1000;
+            }
+        }
+
+        private static bool AskToContinueGame()
+        {
+            while (true)
+            {
+                Console.Write("Do you want to continue? (yes/no) ");
+                string inputContinueQuestionGame = Console.ReadLine().Trim().ToLower();
+
+                if (inputContinueQuestionGame == "yes")
+                {
+                    return true; // Continue game
+                }
+                else if (inputContinueQuestionGame == "no")
+                {
+                    Console.WriteLine("Returning to the main menu.");
+                    return false; // Exit subtraction game
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input. Please enter 'yes' or 'no'.");
+                }
+            }
+        }
     }
 }
+

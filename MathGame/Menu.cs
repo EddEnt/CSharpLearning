@@ -23,7 +23,7 @@ namespace MathGame
                 Console.WriteLine("-------------------------------");
                 Console.WriteLine("Welcome to the Math Game App!");
 
-                if (askForUsername)
+                if (askForUsername == true)
                 {
                     Console.Write("To start, what is your name?: ");
                     GetUsername();
