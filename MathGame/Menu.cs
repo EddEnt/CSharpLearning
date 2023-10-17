@@ -37,6 +37,7 @@ namespace MathGame
                 Console.WriteLine("S - Subtraction Game");
                 Console.WriteLine("M - Multiplication Game");
                 Console.WriteLine("D - Division Game");
+                Console.WriteLine("H - History");
                 Console.WriteLine("Q - Quit");
                 Console.Write("Option: ");
 
@@ -56,6 +57,8 @@ namespace MathGame
                         break;
                     case "d":
                         DivisionGame.StartDivisionGame();
+                        break;
+                    case "h":
                         break;
                     case "q":
                         Console.WriteLine("Exiting the game. Goodbye...");
