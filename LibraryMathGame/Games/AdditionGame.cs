@@ -65,6 +65,20 @@ namespace LibraryMathGame.Games
                             return; // Exit addition game
                     }
                 }
+
+                // After all questions have been answered
+                Console.Write("Do you want to play again? (yes/no) ");
+                string playAgainResponse = Console.ReadLine().Trim().ToLower();
+
+                if (playAgainResponse == "no")
+                {
+                    Console.WriteLine("Returning to the main menu.");
+                    return; // Exit the game
+                }
+                else if (playAgainResponse != "yes")
+                {
+                    Console.WriteLine("Invalid input. Please enter 'yes' or 'no'.");
+                }
             }
         }
 
@@ -150,4 +164,5 @@ namespace LibraryMathGame.Games
         }
     }
 }
+
 

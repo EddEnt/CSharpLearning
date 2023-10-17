@@ -19,7 +19,8 @@ namespace MathGame
 
             while (true) 
             { 
-
+                
+                Console.Clear();
                 Console.WriteLine("-------------------------------");
                 Console.WriteLine("Welcome to the Math Game App!");
 
