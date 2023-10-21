@@ -5,6 +5,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using LibraryMathGame.Games;
+using LibraryMathGame;
 
 namespace MathGame
 {
@@ -13,18 +14,16 @@ namespace MathGame
 
         private static string username = string.Empty;
 
-        public static void GameMenu() 
+        public static void GameMenu()
         {
             bool askForUsername = true;
 
-            while (true) 
-            { 
-                
-                Console.Clear();
+            while (true)
+            {
                 Console.WriteLine("-------------------------------");
                 Console.WriteLine("Welcome to the Math Game App!");
 
-                if (askForUsername == true)
+                if (askForUsername)
                 {
                     Console.Write("To start, what is your name?: ");
                     GetUsername();
@@ -37,18 +36,16 @@ namespace MathGame
                 Console.WriteLine("S - Subtraction Game");
                 Console.WriteLine("M - Multiplication Game");
                 Console.WriteLine("D - Division Game");
-                Console.WriteLine("H - History");
+                Console.WriteLine("V - View Past Game Sessions");
                 Console.WriteLine("Q - Quit");
                 Console.Write("Option: ");
 
-
-
                 string inputSelection = Console.ReadLine();
-                switch (inputSelection.Trim().ToLower()) 
+                switch (inputSelection.Trim().ToLower())
                 {
                     case "a":
                         AdditionGame.StartAdditionGame();
-                        break; 
+                        break;
                     case "s":
                         SubtractionGame.StartSubtractionGame();
                         break;
@@ -58,7 +55,8 @@ namespace MathGame
                     case "d":
                         DivisionGame.StartDivisionGame();
                         break;
-                    case "h":
+                    case "v":
+                        ViewPastGameSessions();
                         break;
                     case "q":
                         Console.WriteLine("Exiting the game. Goodbye...");
@@ -67,15 +65,32 @@ namespace MathGame
                     default:
                         Console.WriteLine("Invalid selection, please try again.");
                         break;
-
                 }
-
             }
         }
 
         public static void GetUsername()
         {
             username = Console.ReadLine();
+        }
+
+        private static void ViewPastGameSessions()
+        {
+            List<GameSessionManager.GameSession> pastSessions = GameSessionManager.GetPastGameSessions();
+            Console.WriteLine("Past Game Sessions:");
+
+            if (pastSessions.Count > 0)
+            {
+                foreach (var session in pastSessions)
+                {
+                    Console.WriteLine($"Game Type: {session.GameType}, Difficulty: {session.Difficulty}, " +
+                                      $"Questions Played: {session.Questions}, Correct Answers: {session.CorrectAnswers}");
+                }
+            }
+            else
+            {
+                Console.WriteLine("No past game sessions to display.");
+            }
         }
 
     }
