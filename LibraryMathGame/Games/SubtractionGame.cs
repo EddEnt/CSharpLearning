@@ -18,6 +18,8 @@ namespace LibraryMathGame.Games
                 int min, max;
                 int numberOfQuestionsToPlay = 0;
                 int correctAnswers = 0;
+                List<string> generatedQuestions = new List<string>();
+                List<string> userAnswers = new List<string>();
 
                 // Choose difficulty level
                 string difficulty = Difficulty.GetDifficultyLevel();
@@ -34,10 +36,10 @@ namespace LibraryMathGame.Games
                 // Set min and max int range based on difficulty
                 Difficulty.SetDifficultyRange(difficulty, out min, out max);
 
-                correctAnswers = PlayGame.RunPlayGame(min, max, numberOfQuestionsToPlay, "Subtraction");
+                correctAnswers = PlayGame.RunPlayGame(min, max, numberOfQuestionsToPlay, "Subtraction", generatedQuestions, userAnswers);
 
                 // Record the game session
-                GameSessionManager.RecordGameSession("Subtraction", difficulty, numberOfQuestionsToPlay, correctAnswers);
+                GameSessionManager.RecordGameSession("Subtraction", difficulty, numberOfQuestionsToPlay, correctAnswers, generatedQuestions, userAnswers);
 
                 if (!ContinueGame.AskToContinueGame())
                     return; // Exit subtraction game

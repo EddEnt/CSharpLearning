@@ -85,6 +85,13 @@ namespace MathGame
                 {
                     Console.WriteLine($"Game Type: {session.GameType}, Difficulty: {session.Difficulty}, " +
                                       $"Questions Played: {session.Questions}, Correct Answers: {session.CorrectAnswers}");
+
+                    Console.WriteLine("Generated Questions and User Answers:");
+                    for (int i = 0; i < session.GeneratedQuestions.Count; i++)
+                    {
+                        Console.WriteLine($"Question: {session.GeneratedQuestions[i]}");
+                        Console.WriteLine($"User Answer: {session.UserAnswers[i]}");
+                    }
                 }
             }
             else
@@ -92,6 +99,7 @@ namespace MathGame
                 Console.WriteLine("No past game sessions to display.");
             }
         }
+
 
     }
 }

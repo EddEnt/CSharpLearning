@@ -18,139 +18,34 @@ namespace LibraryMathGame.Games
             while (true)
             {
                 int min, max;
-                int numberOfQuestions = 0;
-                int questionsToPlay = 0;
+                int numberOfQuestionsToPlay = 0;
+                int correctAnswers = 0;
+                List<string> generatedQuestions = new List<string>();
+                List<string> userAnswers = new List<string>();
 
-                string difficulty = GetDifficultyLevel();
+                // Choose difficulty level
+                string difficulty = Difficulty.GetDifficultyLevel();
                 if (difficulty == null)
-                    return; // User exited to the main menu
+                    return; // User is exited to the main menu
 
-                questionsToPlay = GetNumberOfQuestions();
-                if (questionsToPlay == -1)
-                    return; // User exited to the main menu
-
-                SetDifficultyRange(difficulty, out min, out max);
-
-                while (numberOfQuestions < questionsToPlay)
+                // Choose the number of questions
+                numberOfQuestionsToPlay = NumberOfQuestions.GetNumberOfQuestions();
+                if (numberOfQuestionsToPlay == -1)
                 {
-                    int num1 = new Random().Next(min, max + 1);
-                    int num2 = new Random().Next(min, max + 1);
-
-                    Console.Write($"What is {num1} * {num2}? ");
-                    string inputUserAnswer = Console.ReadLine().Trim().ToLower();
-
-                    if (inputUserAnswer == "q")
-                    {
-                        Console.WriteLine("Exiting the multiplication game.");
-                        return; // Exit multiplication game
-                    }
-
-                    if (int.TryParse(inputUserAnswer, out int userAnswer) && userAnswer == num1 * num2)
-                    {
-                        Console.WriteLine("Correct answer!");
-                    }
-                    else
-                    {
-                        Console.WriteLine($"Incorrect. The correct answer is {num1 * num2}.");
-                    }
-
-                    numberOfQuestions++;
-
-                    if (numberOfQuestions % 5 == 0)
-                    {
-                        if (!AskToContinueGame())
-                            return; // Exit multiplication game
-                    }
+                    return; // User exits to the main menu
                 }
 
-                // After all questions have been answered
-                Console.Write("Do you want to play again? (yes/no) ");
-                string playAgainResponse = Console.ReadLine().Trim().ToLower();
+                // Set min and max int range based on difficulty
+                Difficulty.SetDifficultyRange(difficulty, out min, out max);
 
-                if (playAgainResponse == "no")
-                {
-                    Console.WriteLine("Returning to the main menu.");
-                    return; // Exit the game
-                }
-                else if (playAgainResponse != "yes")
-                {
-                    Console.WriteLine("Invalid input. Please enter 'yes' or 'no'.");
-                }
+                correctAnswers = PlayGame.RunPlayGame(min, max, numberOfQuestionsToPlay, "Multiplication", generatedQuestions, userAnswers);
 
-            }
-        }
+                // Record the game session
+                GameSessionManager.RecordGameSession("Multiplication", difficulty, numberOfQuestionsToPlay, correctAnswers, generatedQuestions, userAnswers);
 
-        private static string GetDifficultyLevel()
-        {
-            string difficulty;
-            while (true)
-            {
-                Console.Write("Select the difficulty level (Easy, Regular, or Hard) or 'q' to return to the main menu: ");
-                difficulty = Console.ReadLine().Trim().ToLower();
+                if (!ContinueGame.AskToContinueGame())
+                    return; // Exit subtraction game
 
-                if (difficulty == "q")
-                    return null; // User exited to the main menu
-
-                if (difficulty == "easy" || difficulty == "regular" || difficulty == "hard")
-                    return difficulty;
-                else
-                    Console.WriteLine("Invalid difficulty level. Please try again.");
-            }
-        }
-
-        private static int GetNumberOfQuestions()
-        {
-            int questionsToPlay;
-            while (true)
-            {
-                Console.Write("Enter the number of questions or 'q' to return to the main menu: ");
-                string input = Console.ReadLine().Trim().ToLower();
-
-                if (input == "q")
-                    return -1; // User exited to the main menu
-
-                if (int.TryParse(input, out questionsToPlay) && questionsToPlay >= 1)
-                    return questionsToPlay;
-                else
-                    Console.WriteLine("Invalid input. Please enter a positive number or 'q' to return to the main menu.");
-            }
-        }
-
-        private static void SetDifficultyRange(string difficulty, out int min, out int max)
-        {
-            min = 1;
-            max = 10;
-
-            if (difficulty == "regular")
-            {
-                max = 100;
-            }
-            else if (difficulty == "hard")
-            {
-                max = 1000;
-            }
-        }
-
-        private static bool AskToContinueGame()
-        {
-            while (true)
-            {
-                Console.Write("Do you want to continue? (yes/no) ");
-                string inputContinueQuestionGame = Console.ReadLine().Trim().ToLower();
-
-                if (inputContinueQuestionGame == "yes")
-                {
-                    return true; // Continue game
-                }
-                else if (inputContinueQuestionGame == "no")
-                {
-                    Console.WriteLine("Returning to the main menu.");
-                    return false; // Exit multiplication game
-                }
-                else
-                {
-                    Console.WriteLine("Invalid input. Please enter 'yes' or 'no'.");
-                }
             }
         }
     }

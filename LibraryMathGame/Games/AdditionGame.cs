@@ -19,6 +19,8 @@ namespace LibraryMathGame.Games
                 int min, max;
                 int numberOfQuestionsToPlay = 0;
                 int correctAnswers = 0;
+                List<string> generatedQuestions = new List<string>();
+                List<string> userAnswers = new List<string>();
 
                 // Choose difficulty level
                 string difficulty = Difficulty.GetDifficultyLevel();
@@ -35,58 +37,57 @@ namespace LibraryMathGame.Games
                 // Set min and max int range based on difficulty
                 Difficulty.SetDifficultyRange(difficulty, out min, out max);
 
-                correctAnswers = PlayGame.RunPlayGame(min, max, numberOfQuestionsToPlay, "Addition");
+                correctAnswers = PlayGame.RunPlayGame(min, max, numberOfQuestionsToPlay, "Addition", generatedQuestions, userAnswers);
 
                 // Record the game session
-                GameSessionManager.RecordGameSession("Addition", difficulty, numberOfQuestionsToPlay, correctAnswers);
+                GameSessionManager.RecordGameSession("Addition", difficulty, numberOfQuestionsToPlay, correctAnswers, generatedQuestions, userAnswers);
 
                 if (!ContinueGame.AskToContinueGame())
                     return; // Exit addition game
             }
         }
-
-        //private static int PlayGame(int min, int max, int numberOfQuestionsToPlay, string gameType)
-        //{
-        //    int numberOfQuestions = 0;
-        //    int correctAnswers = 0;
-
-        //    while (numberOfQuestions < numberOfQuestionsToPlay)
-        //    {
-        //        int num1 = new Random().Next(min, max + 1);
-        //        int num2 = new Random().Next(min, max + 1);
-
-        //        Console.Write($"What is {num1} + {num2}? ");
-        //        string inputUserAnswer = Console.ReadLine().Trim().ToLower();
-
-        //        if (inputUserAnswer == "q")
-        //        {
-        //            Console.WriteLine($"Exiting the {gameType} game.");
-        //            return correctAnswers;
-        //        }
-
-        //        if (int.TryParse(inputUserAnswer, out int userAnswer) && userAnswer == num1 + num2)
-        //        {
-        //            Console.WriteLine("Correct answer!");
-        //            correctAnswers++;
-        //        }
-        //        else
-        //        {
-        //            Console.WriteLine($"Incorrect. The correct answer is {num1 + num2}.");
-        //        }
-
-        //        numberOfQuestions++;
-
-        //        if (numberOfQuestions % 5 == 0)
-        //        {
-        //            if (!ContinueGame.AskToContinueGame())
-        //                return correctAnswers; // Exit the game
-        //        }
-        //    }
-
-        //    return correctAnswers;
-        //}
-
     }
 }
+
+    //private static int PlayGame(int min, int max, int numberOfQuestionsToPlay, string gameType)
+    //{
+    //    int numberOfQuestions = 0;
+    //    int correctAnswers = 0;
+
+    //    while (numberOfQuestions < numberOfQuestionsToPlay)
+    //    {
+    //        int num1 = new Random().Next(min, max + 1);
+    //        int num2 = new Random().Next(min, max + 1);
+
+    //        Console.Write($"What is {num1} + {num2}? ");
+    //        string inputUserAnswer = Console.ReadLine().Trim().ToLower();
+
+    //        if (inputUserAnswer == "q")
+    //        {
+    //            Console.WriteLine($"Exiting the {gameType} game.");
+    //            return correctAnswers;
+    //        }
+
+    //        if (int.TryParse(inputUserAnswer, out int userAnswer) && userAnswer == num1 + num2)
+    //        {
+    //            Console.WriteLine("Correct answer!");
+    //            correctAnswers++;
+    //        }
+    //        else
+    //        {
+    //            Console.WriteLine($"Incorrect. The correct answer is {num1 + num2}.");
+    //        }
+
+    //        numberOfQuestions++;
+
+    //        if (numberOfQuestions % 5 == 0)
+    //        {
+    //            if (!ContinueGame.AskToContinueGame())
+    //                return correctAnswers; // Exit the game
+    //        }
+    //    }
+
+    //    return correctAnswers;
+    //}
 
 
