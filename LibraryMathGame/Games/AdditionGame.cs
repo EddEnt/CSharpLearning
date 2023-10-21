@@ -12,7 +12,7 @@ namespace LibraryMathGame.Games
         public static void StartAdditionGame()
         {
             Console.WriteLine("-------------------------------");
-            Console.WriteLine("Addition Game");
+            Console.WriteLine("\x1b[1Addition Game\x1b[0m - Enter 'q' at any time to exit.");
 
             while (true)
             {
@@ -30,17 +30,17 @@ namespace LibraryMathGame.Games
 
                 // Choose the number of questions
                 numberOfQuestionsToPlay = NumberOfQuestions.GetNumberOfQuestions();
-                if (numberOfQuestionsToPlay == -1)
+                if (numberOfQuestionsToPlay < 0)
                 {
-                    return; // User exits to the main menu
+                    return;
                 }
 
-                // Set min and max int range based on difficulty
+                // Setting min and max int range based on difficulty
                 Difficulty.SetDifficultyRange(difficulty, out min, out max);
 
                 correctAnswers = PlayGame.RunPlayGame(min, max, numberOfQuestionsToPlay, "Addition", generatedQuestions, userAnswers, expectedAnswers);
 
-                // Record the game session
+                // Recording the game session
                 GameSessionManager.RecordGameSession("Addition", difficulty, numberOfQuestionsToPlay, correctAnswers, generatedQuestions, userAnswers, expectedAnswers);
 
                 if (!ContinueGame.AskToContinueGame())

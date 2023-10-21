@@ -12,7 +12,7 @@ namespace LibraryMathGame
         {
             while (true)
             {
-                Console.Write("Do you want to continue? (yes/no) ");
+                Console.Write("Do you want to play again? (yes/no) ");
                 string inputContinueQuestionGame = Console.ReadLine().Trim().ToLower();
 
                 if (inputContinueQuestionGame == "yes")

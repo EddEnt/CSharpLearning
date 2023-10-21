@@ -14,7 +14,7 @@ namespace LibraryMathGame.Games
         public static void StartDivisionGame()
         {
             Console.WriteLine("-------------------------------");
-            Console.WriteLine("Division Game");
+            Console.WriteLine("\x1b[1mDivision Game\x1b[0m - Enter 'q' at any time to exit.");
 
             while (true)
             {
@@ -34,7 +34,7 @@ namespace LibraryMathGame.Games
                 numberOfQuestionsToPlay = NumberOfQuestions.GetNumberOfQuestions();
                 if (numberOfQuestionsToPlay == -1)
                 {
-                    return; // User exits to the main menu
+                    return;
                 }
 
                 // Set min and max int range based on difficulty

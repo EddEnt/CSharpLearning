@@ -36,16 +36,11 @@ namespace LibraryMathGame
                         questionText = $"What is {num1} * {num2}? ";
                         break;
                     case "Division":
-                        if (num2 == 0)
-                        {
-                            correctAnswer = 0; // Indicate division by zero
-                            questionText = $"What is {num1} / 0? (Enter 0 to indicate division by zero): ";
-                        }
-                        else
-                        {
-                            correctAnswer = num1 / num2;
-                            questionText = $"What is {num1} / {num2}? ";
-                        }
+                        int maxNum2 = max / 2;
+                        num2 = new Random().Next(1, maxNum2 + 1);
+                        num1 = num2 * new Random().Next(1, max / num2 + 1);
+                        correctAnswer = num1 / num2;
+                        questionText = $"What is {num1} / {num2}? ";
                         break;
                 }
 
@@ -56,8 +51,6 @@ namespace LibraryMathGame
                 generatedQuestions.Add(questionText);                
                 userAnswers.Add(inputUserAnswer);
                 expectedAnswers.Add(correctAnswer);
-
-
 
                 if (inputUserAnswer == "q")
                 {
@@ -77,11 +70,6 @@ namespace LibraryMathGame
 
                 numberOfQuestions++;
 
-                if (numberOfQuestions % 5 == 0)
-                {
-                    if (!ContinueGame.AskToContinueGame())
-                        return correctAnswers; // Exit the game
-                }
             }
 
             return correctAnswers;
