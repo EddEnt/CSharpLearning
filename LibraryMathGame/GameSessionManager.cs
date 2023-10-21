@@ -21,7 +21,8 @@ namespace LibraryMathGame
 
         private static List<GameSession> pastGameSessions = new List<GameSession>();
 
-        public static void RecordGameSession(string gameType, string difficulty, int questions, int correctAnswers, List<string> generatedQuestions, List<string> userAnswers, List<int> expectedAnswers)
+        public static void RecordGameSession(string gameType, string difficulty, int questions, 
+            int correctAnswers, List<string> generatedQuestions, List<string> userAnswers, List<int> expectedAnswers)
         {
             pastGameSessions.Add(new GameSession
             {
