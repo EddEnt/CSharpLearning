@@ -9,7 +9,7 @@ namespace LibraryMathGame
     internal class PlayGame
     {
         //Blueprint for Gametypes
-        internal static int RunPlayGame(int min, int max, int numberOfQuestionsToPlay, string gameType, List<string> generatedQuestions, List<string> userAnswers)
+        internal static int RunPlayGame(int min, int max, int numberOfQuestionsToPlay, string gameType, List<string> generatedQuestions, List<string> userAnswers, List<int> expectedAnswers)
         {
             int numberOfQuestions = 0;
             int correctAnswers = 0;
@@ -53,10 +53,11 @@ namespace LibraryMathGame
                 string inputUserAnswer = Console.ReadLine().Trim().ToLower();
 
                 // Store the generated question and user answer
-                generatedQuestions.Add(questionText);
-                Console.WriteLine($"Added question: {questionText}");
+                generatedQuestions.Add(questionText);                
                 userAnswers.Add(inputUserAnswer);
-                Console.WriteLine($"Added user answer: {inputUserAnswer}");
+                expectedAnswers.Add(correctAnswer);
+
+
 
                 if (inputUserAnswer == "q")
                 {

@@ -20,7 +20,7 @@ namespace MathGame
 
             while (true)
             {
-                Console.WriteLine("-------------------------------");
+                Console.WriteLine("-----------------------------------------------------------------------------------");
                 Console.WriteLine("Welcome to the Math Game App!");
 
                 if (askForUsername)
@@ -56,7 +56,7 @@ namespace MathGame
                         DivisionGame.StartDivisionGame();
                         break;
                     case "v":
-                        ViewPastGameSessions();
+                        PastGameSessions.ViewPastGameSessions();
                         break;
                     case "q":
                         Console.WriteLine("Exiting the game. Goodbye...");
@@ -72,32 +72,6 @@ namespace MathGame
         public static void GetUsername()
         {
             username = Console.ReadLine();
-        }
-
-        private static void ViewPastGameSessions()
-        {
-            List<GameSessionManager.GameSession> pastSessions = GameSessionManager.GetPastGameSessions();
-            Console.WriteLine("Past Game Sessions:");
-
-            if (pastSessions.Count > 0)
-            {
-                foreach (var session in pastSessions)
-                {
-                    Console.WriteLine($"Game Type: {session.GameType}, Difficulty: {session.Difficulty}, " +
-                                      $"Questions Played: {session.Questions}, Correct Answers: {session.CorrectAnswers}");
-
-                    Console.WriteLine("Generated Questions and User Answers:");
-                    for (int i = 0; i < session.GeneratedQuestions.Count; i++)
-                    {
-                        Console.WriteLine($"Question: {session.GeneratedQuestions[i]}");
-                        Console.WriteLine($"User Answer: {session.UserAnswers[i]}");
-                    }
-                }
-            }
-            else
-            {
-                Console.WriteLine("No past game sessions to display.");
-            }
         }
 
 

@@ -16,11 +16,12 @@ namespace LibraryMathGame
             public int CorrectAnswers { get; set; }
             public List<string> GeneratedQuestions { get; set; }
             public List<string> UserAnswers { get; set; }
+            public List<int> ExpectedAnswers { get; set; }
         }
 
         private static List<GameSession> pastGameSessions = new List<GameSession>();
 
-        public static void RecordGameSession(string gameType, string difficulty, int questions, int correctAnswers, List<string> generatedQuestions, List<string> userAnswers)
+        public static void RecordGameSession(string gameType, string difficulty, int questions, int correctAnswers, List<string> generatedQuestions, List<string> userAnswers, List<int> expectedAnswers)
         {
             pastGameSessions.Add(new GameSession
             {
@@ -29,7 +30,8 @@ namespace LibraryMathGame
                 Questions = questions,
                 CorrectAnswers = correctAnswers,
                 GeneratedQuestions = generatedQuestions,
-                UserAnswers = userAnswers
+                UserAnswers = userAnswers,
+                ExpectedAnswers = expectedAnswers
             });
         }
 
