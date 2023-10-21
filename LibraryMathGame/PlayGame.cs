@@ -18,8 +18,28 @@ namespace LibraryMathGame
             {
                 int num1 = new Random().Next(min, max + 1);
                 int num2 = new Random().Next(min, max + 1);
+                int correctAnswer = 0;
 
-                Console.Write($"What is {num1} + {num2}? ");
+                switch (gameType)
+                {
+                    case "Addition":
+                        correctAnswer = num1 + num2;
+                        Console.Write($"What is {num1} + {num2}? ");
+                        break;
+                    case "Subtraction":
+                        correctAnswer = num1 - num2;
+                        Console.Write($"What is {num1} - {num2}? ");
+                        break;
+                    case "Multiplication":
+                        correctAnswer = num1 * num2;
+                        Console.Write($"What is {num1} * {num2}? ");
+                        break;
+                    case "Division":
+                        correctAnswer = num1 / num2;
+                        Console.Write($"What is {num1} / {num2}? ");
+                        break;
+                }
+
                 string inputUserAnswer = Console.ReadLine().Trim().ToLower();
 
                 if (inputUserAnswer == "q")
@@ -28,14 +48,14 @@ namespace LibraryMathGame
                     return correctAnswers;
                 }
 
-                if (int.TryParse(inputUserAnswer, out int userAnswer) && userAnswer == num1 + num2)
+                if (int.TryParse(inputUserAnswer, out int userAnswer) && userAnswer == correctAnswer)
                 {
                     Console.WriteLine("Correct answer!");
                     correctAnswers++;
                 }
                 else
                 {
-                    Console.WriteLine($"Incorrect. The correct answer is {num1 + num2}.");
+                    Console.WriteLine($"Incorrect. The correct answer is {correctAnswer}.");
                 }
 
                 numberOfQuestions++;
@@ -43,12 +63,12 @@ namespace LibraryMathGame
                 if (numberOfQuestions % 5 == 0)
                 {
                     if (!ContinueGame.AskToContinueGame())
-                        // Exit the game
-                        return correctAnswers;
+                        return correctAnswers; // Exit the game
                 }
             }
 
             return correctAnswers;
         }
+
     }
 }
