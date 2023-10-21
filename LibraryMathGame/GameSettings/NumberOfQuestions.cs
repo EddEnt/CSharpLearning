@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LibraryMathGame
+namespace LibraryMathGame.GameSettings
 {
     internal class NumberOfQuestions
     {
