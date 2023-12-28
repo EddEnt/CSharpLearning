@@ -1,0 +1,14 @@
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\PropertyTypesApp\PropertyTypes\bin\Debug\net6.0\PropertyTypes.exe
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\PropertyTypesApp\PropertyTypes\bin\Debug\net6.0\PropertyTypes.deps.json
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\PropertyTypesApp\PropertyTypes\bin\Debug\net6.0\PropertyTypes.runtimeconfig.json
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\PropertyTypesApp\PropertyTypes\bin\Debug\net6.0\PropertyTypes.dll
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\PropertyTypesApp\PropertyTypes\bin\Debug\net6.0\PropertyTypes.pdb
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\PropertyTypesApp\PropertyTypes\obj\Debug\net6.0\PropertyTypes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\PropertyTypesApp\PropertyTypes\obj\Debug\net6.0\PropertyTypes.AssemblyInfoInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\PropertyTypesApp\PropertyTypes\obj\Debug\net6.0\PropertyTypes.AssemblyInfo.cs
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\PropertyTypesApp\PropertyTypes\obj\Debug\net6.0\PropertyTypes.csproj.CoreCompileInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\PropertyTypesApp\PropertyTypes\obj\Debug\net6.0\PropertyTypes.dll
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\PropertyTypesApp\PropertyTypes\obj\Debug\net6.0\refint\PropertyTypes.dll
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\PropertyTypesApp\PropertyTypes\obj\Debug\net6.0\PropertyTypes.pdb
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\PropertyTypesApp\PropertyTypes\obj\Debug\net6.0\PropertyTypes.genruntimeconfig.cache
+C:\Users\Edward\Desktop\CSharpLearning\objectOrientedProgramming\PropertyTypesApp\PropertyTypes\obj\Debug\net6.0\ref\PropertyTypes.dll

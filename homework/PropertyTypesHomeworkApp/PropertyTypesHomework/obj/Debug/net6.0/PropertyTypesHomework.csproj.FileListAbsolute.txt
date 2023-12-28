@@ -1,0 +1,14 @@
+C:\Users\Edward\Desktop\CSharpLearning\homework\PropertyTypesHomeworkApp\PropertyTypesHomework\bin\Debug\net6.0\PropertyTypesHomework.exe
+C:\Users\Edward\Desktop\CSharpLearning\homework\PropertyTypesHomeworkApp\PropertyTypesHomework\bin\Debug\net6.0\PropertyTypesHomework.deps.json
+C:\Users\Edward\Desktop\CSharpLearning\homework\PropertyTypesHomeworkApp\PropertyTypesHomework\bin\Debug\net6.0\PropertyTypesHomework.runtimeconfig.json
+C:\Users\Edward\Desktop\CSharpLearning\homework\PropertyTypesHomeworkApp\PropertyTypesHomework\bin\Debug\net6.0\PropertyTypesHomework.dll
+C:\Users\Edward\Desktop\CSharpLearning\homework\PropertyTypesHomeworkApp\PropertyTypesHomework\bin\Debug\net6.0\PropertyTypesHomework.pdb
+C:\Users\Edward\Desktop\CSharpLearning\homework\PropertyTypesHomeworkApp\PropertyTypesHomework\obj\Debug\net6.0\PropertyTypesHomework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edward\Desktop\CSharpLearning\homework\PropertyTypesHomeworkApp\PropertyTypesHomework\obj\Debug\net6.0\PropertyTypesHomework.AssemblyInfoInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\homework\PropertyTypesHomeworkApp\PropertyTypesHomework\obj\Debug\net6.0\PropertyTypesHomework.AssemblyInfo.cs
+C:\Users\Edward\Desktop\CSharpLearning\homework\PropertyTypesHomeworkApp\PropertyTypesHomework\obj\Debug\net6.0\PropertyTypesHomework.csproj.CoreCompileInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\homework\PropertyTypesHomeworkApp\PropertyTypesHomework\obj\Debug\net6.0\PropertyTypesHomework.dll
+C:\Users\Edward\Desktop\CSharpLearning\homework\PropertyTypesHomeworkApp\PropertyTypesHomework\obj\Debug\net6.0\refint\PropertyTypesHomework.dll
+C:\Users\Edward\Desktop\CSharpLearning\homework\PropertyTypesHomeworkApp\PropertyTypesHomework\obj\Debug\net6.0\PropertyTypesHomework.pdb
+C:\Users\Edward\Desktop\CSharpLearning\homework\PropertyTypesHomeworkApp\PropertyTypesHomework\obj\Debug\net6.0\PropertyTypesHomework.genruntimeconfig.cache
+C:\Users\Edward\Desktop\CSharpLearning\homework\PropertyTypesHomeworkApp\PropertyTypesHomework\obj\Debug\net6.0\ref\PropertyTypesHomework.dll
