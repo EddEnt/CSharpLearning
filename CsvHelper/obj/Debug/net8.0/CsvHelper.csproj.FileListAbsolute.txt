@@ -1,0 +1,15 @@
+C:\Users\Edward\Desktop\CSharpLearning\CsvHelper\bin\Debug\net8.0\CsvHelper.exe
+C:\Users\Edward\Desktop\CSharpLearning\CsvHelper\bin\Debug\net8.0\CsvHelper.deps.json
+C:\Users\Edward\Desktop\CSharpLearning\CsvHelper\bin\Debug\net8.0\CsvHelper.runtimeconfig.json
+C:\Users\Edward\Desktop\CSharpLearning\CsvHelper\bin\Debug\net8.0\CsvHelper.dll
+C:\Users\Edward\Desktop\CSharpLearning\CsvHelper\bin\Debug\net8.0\CsvHelper.pdb
+C:\Users\Edward\Desktop\CSharpLearning\CsvHelper\obj\Debug\net8.0\CsvHelper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edward\Desktop\CSharpLearning\CsvHelper\obj\Debug\net8.0\CsvHelper.AssemblyInfoInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\CsvHelper\obj\Debug\net8.0\CsvHelper.AssemblyInfo.cs
+C:\Users\Edward\Desktop\CSharpLearning\CsvHelper\obj\Debug\net8.0\CsvHelper.csproj.CoreCompileInputs.cache
+C:\Users\Edward\Desktop\CSharpLearning\CsvHelper\obj\Debug\net8.0\CsvHelper.sourcelink.json
+C:\Users\Edward\Desktop\CSharpLearning\CsvHelper\obj\Debug\net8.0\CsvHelper.dll
+C:\Users\Edward\Desktop\CSharpLearning\CsvHelper\obj\Debug\net8.0\refint\CsvHelper.dll
+C:\Users\Edward\Desktop\CSharpLearning\CsvHelper\obj\Debug\net8.0\CsvHelper.pdb
+C:\Users\Edward\Desktop\CSharpLearning\CsvHelper\obj\Debug\net8.0\CsvHelper.genruntimeconfig.cache
+C:\Users\Edward\Desktop\CSharpLearning\CsvHelper\obj\Debug\net8.0\ref\CsvHelper.dll
